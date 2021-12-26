@@ -1,94 +1,84 @@
-# Command Line Tarot!
+# Command Line Tarot
 
-This project is meant to be a way of getting a tarot reading via a command line interface.
+This project is meant to be a ~~nerdy~~ convenient way to get a tarot reading via the command line interface!
 
 ```ascii
-lxxkkkkxxkkxxxxxxxdddddooooooooloolllllloloooooooooooooooooolllllllllc:;;:ccllool;;x00000OOO0000000d
-dOOOOOOOOOOOOOOOOOOOOOOOOOOOOOkkkkkkkkkkOkkkOOOkOOOOOkOOkxdddddxxxkkkkxdooooooolcckNWWWWWWWWWWWWWWW0
-xOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOkkkOOOOOOkkxdddoooooooooooooolcc;;xNWWWWWWWWWWWWWWWW0
-dOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOkdoollokOOOOOOOOOOOOOOOkkxxdoollc:,:0WWWWWWWWWWWWWWWWW0
-dOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOolxkdlcoOOOOOOkxdddddoddddddddddol;cKWWWWWWWWWWWWWWWWW0
-oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxodxoooxOOOOOOkkxxxxkkOOOkkxdddddo;;OWWWWWWWWWWWWWWWWW0
-oOOOOOOOOOOOOOOOOOOOOOO00O00OOOOOOOOOOOOOOOOOOOkxkOOOOOOOOOOOOOOOkxdddddddddoodo:lKWWWWWWWWWWWWWWWW0
-oOOOOOOOOOOOOOOOOOOOO00000000OOOOOOOOOOOOOOOOOOO0OOOOO0OOOOkxddddddxkkkxddoddxxolco0WWWWWWWWWWWWWWW0
-dOOOOOOOOOOOOOOOOOOOO000000OOOOOOOOOOOOOOOOOOOOO0OOOOOOOkxxddxxOOOOxdolclxkxdodxxoclxKNWWWWWWWWWWWNk
-dOOOOOOOOOOOOOOOOOOOOO0000OOOOOOOOOOOOOOOOOOOOOOOOOO00OOOOOOOOOkxddooc;,;oxolodddxko:coxO0XXNNXKOdl;
-dOOOOOOOOOOOOOOOOOOOOO0000000OOOOOO00000OOO00OOOOOOOOOOOOOOOOOOkxxdl;'..;ll;',,:xkdoxdc;;::clcc;,;;;
-xOOOOOOOOOOOOOOOOOOOOOO0000000OO00000OOOOOOOOOOOOOOOOOOOkxdollolc:,'''.',,....':dodkxlolldclxloc:oc:
-dOOOOOOOOOOOOOOOOOOOOO000000000000000000OO00OO0OOOOOkdlc::,'.'''.''....';cc'.';clokdodocddcdxldlcoc:
-dOOOOOOOOOOOOOOOOOOOO0000000000000000000OO00OOOxllll:,,,,;;,,;;,'......:lol;'';codolxxcokl:ddlxolocc
-dOOOOOOOOOOOOOOOOOOOO0000000000OO000000OO0OO0Oo;,''''''';oxxdc;..',,'',,,,;;'..';:lxOolkkcckdlkdlocc
-xOOOOOOOOOOOOOO0000000000000000000000000O00Odlc:::c;',,'.,:,...:odl;;cc:::::'.....ckdlxOxclkolkdlolc
-xOOOOOOOOOOOOOO00000000000000000000000000OOo:cdl;;:::''''''.'cxOOxc',:;,,'''';,...:dldOOd:dOookdlolc
-dOOOO00OOOOOOOOOOO00000000000000000000000Odccoddooodc'...''.:xOOOOd::c;'....';'...:lokOOocxOolkdldo:
-dOOO00OOO000OOOOO0000000000000000000000OOOxollodddddc;,,'''.:xOOOOOxl:,.....'....,coxOOOdokOloOxodo:
-oOOO000OO0000OO0000000000000000000000000O00x::lodddo;,lc,''';dOOOOOko:;;,',;;,;:lxkkOOOOkkOOxxOkdxkl
-oOOOO00000000O00000000000000000000000000Oxl,,oxxxxxl'.;o:.',lkO0OOOOOkdooddxxkOOOOOOOOOOOOOOOOOOOOOl
-oOOOOO0000000000000000000000000O00Okxdlc;...'lxxxxxl',:cc:ldkOOO00OOOOO0OOOOOO0OOOOOOOOkxxxxkOOOOOOo
-dOOO0OO0000000O0000000000000000O0Odc:'...',;coxxxxdo:;coxkO000OOOOO00OOOOOOOOOOO0OOOOOkocddlllxOOOOl
-dOOO0OO000000000000000000000000Oxc'....,lcclooool::::;;;,,;lxOOOOO000OOOOOOOO0OOOOOOOOkocokocokOOOOl
-dOOO00000000O000000000000000Odc;.......,dxdxdool:;;;,,,,;;..':oxOO0OOOOOOOOOOO00OOOOxdc:c:ol,;lxOOOo
-xOOO00000000000000000000Okdc,....'','...:oddooooc;,,,'..:llc;,,;cokOO0OOOOOOOO00OOOOOdcc:;odl:dOOOOo
-xOOOO0000000000000000Oxo:'....,;;;::,.',,,,,,';c;'';;....'',',;,'';lxOOOOOOO00OOOOOkdl:;'.;lddxOOOOo
-k00000000000000000Oxo:.....,cc;;,,lolc,'..;c;';c:'.';........'''..';:coxkkkxxxkxxoolcc::;,,',;oOOOOo
-kOO0O00O000000OOxl;...',',,:ol;'',,,,,...,;c:;cll:',c:'....''......,,,',::::;cxkl:cllccclc;,';dOOOOo
-kOO00OO0000Okdc,...,:cc,'c:,;:;,,;,,,,'.',,,;;:cc;,,,;,........';:'...';:,':xKNKl::lddddoolodxOOOOOo
-kOOOOOOOOkdc,...;:ldOOc..'::,,,,,'.,;,'.....;c;',:cc;,'......'',cl:',,';ldodxxkx;.,dOOOOOOOOOOOOOOOl
-kOkdolll:,..';coxkOXNNOc;:::...','.:c,..''..';,,,;;;,'';ol'.'::;lllc;:'.,lol;'';,.ckOOOOOOOOOOOOOOkl
-do;'..''...,::;lKNNNKKKxxo:'...''';::,',;'...',,,'...'lxOd,..'',;;;,,;..',;;;;,';okOOOOOOOOOOOOOOOkl
-:'.....,::ccclokXXkl:cc;;;;'.  ..:lclc;:;.....','..,lxOOOk:....,,'::'...,:cccc:;oOOOOOOOOOOOOOOOOOOl
-...,;;:ll:;:::oodoc,,;;::cc:'....,cc::'..........,:dOOOOOOxc...',,:;.  .':cccc;:xOOOOOOOOOOOOOOOOOOl
-;lxkOOOOOxo:;:ldxkkc;;,,:cccc:,..';,,;:,;'.,;'',,cdkOOOOOOOOo,',;;'.....;ccc:::;cxOOOOOOOOOOOOOOOOkl
-dOOOOOOOOOOkxkOOOOkoll;,:cccc:;,,::,';;,,......':okO0OOOOOOOOkl,.',',,..,:cc:;;;;okOOOOOOOOOOOOOOOOl
-xOOOOOOOOOOOOOOOOOOOOd:,,,;cc::,'.....'...... ..,codk00OOOOOOOOo,..,,'...,:ccc:;,;coddkOOOOOOOOOOOOl
-kOOOOOOOOOOOOOOO00OOOkdl:,,'.,,.. .,.......;;...;;;;cokOOOOOOOOOkl;,,;;',c;;:c;,,;::;,cdxkOOOOOOOOOl
-kOOOOOOOOOOOOOOOOOOOOOOkl;'..,.........',..;:,',:cc::::lxOOOOOOOOOkdlool;;;,;:;;:lc:,,,,:cc:lxOOOOOo
-kOOOOOOOOOOOOOOOOOOOOOOOOko,''.','.. .,,,.'clc;,,,'.,:,.,okOOOOOOOOOOkxo:,:;','.';:::;'';;;coxOOOOOo
-kOOOOOOOOOOOOOOOOOOOOOOOOOko;.',,,,.....,,':c:'..;lc;,'..'ckOOOOOOOOOOOOxddololc::cllcclodxkOOOOOOOo
-kOOOOOOOOOOOOOOOOOOOOOOOOOOOd'';;,,,..,;,,;,','. .''......'lxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxddko
-kOOOOOOOOOOOOOOOOOOOOOOOOOOkc..,;'',;'.',',;,;;....... ..','';okOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOkooodo
-xOOOOOOOOOOOOOOOOOOOOOOOOOOd'....',,:'.,;,'.,'.......  .',,'...;okOOOOOOOOOOOOOOOOOOOOOOOOOOOOodKOl:
-xOOOOOOOOOOOOOOOOOOOOOOOOOk:...,'...''.''.....'...''....,,;,';'..,lxOOOOOOOOOOOOOOOOOOOOOkolxxlkWNk:
-kOOOOOOOOOOOOOOOOOOOOOOOOOkc....'.. .,,. ..,'..........','..':,..'lkOOOOOOOOOOOOOOOOxxkOxdxolokNWWNx
-kOOOOOOOOOOOOOOOOOOOOO0OOOOko,......','...'ll;',;;;,''',,'..;cccldkOOOOOOOOOOOOOOOkddodxdONKkkXWWWWk
-xOOOOOOOOOOOOOOOOOOOO000O0OOOxl;,'..'''....,,,;,,::,.'...:ldkOOOOOOOOOOOOOOOOOOOOkdxXOod0WWWWWWWWNNx
-xOOOOOOOOOOOOOOOOOO000000OOOOOOOkxoc',cllcc:;,',::;;;cc,cOOOOOOOOOOOOOOOOOOOOkkkdoo0WNXXWWWWWWWNXKOo
-dOOOOOOOOOOOOOOOOOOO0OOO0OOOOOOOOOOx:ckkkkkkko,:xkkkkko;;oxOOOOOOOOOOOOOkxkOdooxOdkNWWWWWWWWWNXOddo:
-xOOOOOOOOOOOOOOOOOO000OOOOOOOOOOOOOx:lkkkOkkxc;:dkkkkkkxollldkOOOOOOOOOOdodllOOxkONWWWWWWNXKkdolodxc
-xOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOx:lkkkkkkxc::cdkkkkkkkkkdccdOOOOOOOOkd0KdkNWNNWWWWWWNXKklcodxxdc,
-kOOOOOOOOOOOOOOOOOOOOOO0OOOOOOOOOOOOo:okkkkkkd::cccldkkkkkkkko:lxkOOOOOdx0kkXWWWWWNNNNXXKkloxxxo:'..
-kOOOOOOOOOOOOOO000OOO000OOOOOOOOOOOOOo:okkkkkkl:dxoolcldkOkkkkdcc:lkOkoldoxXWWWWNXKKKK000x::::;...;'
-kOOOOOOOOOOOOOOOOOOOOOOO0OOOOOOOOOOOOOocdkkkkOocdOOOOxollloxkOxll,'ldod0xdKWWWWNXKK00000KXk;':c,''..
-xOOOO0OOOOOOOOOO0OO0O0OOOOOOOOOOO0OOOOkclkOkkkl;lxOOOOOOkdl:colod:';cdOxxKWWWNKxxkOOO0000KXo:ddl:,,;
-xOOOO00OOOOOOOOOOOOOO00000OOOOOOOO00O0Oo:dkxoooo:lkOOOOkxdo:';ldl,;oxolkXNNXX0c,lxocdkkOOKXx:dx:;;;:
-xOOOOO00OOOOOOOOOOOOOOxodxkOOOOOOOOOOOOo,:lodxxl:cdkOOxkKkldxoc:''cxOkdoxkO00kl:lkxo00dodOKocdd:,,;:
-kOOOOOOOOOOOOOOOO0OOOxodkxxdkOOOOOOOOOOl,:dOOko:;cddddkXWNNNWNKko:,:dOOkxllxOOxccO0OXKd:ckKocdl'.',;
-xOOOOOOOOOxoxddkkxddxk0NWWN0xxxkkOOOOOOd:;codl:;,lOO0XNWWWWWWNXKOd;.ckOOxllxkl;cxKNNNkoxddd:,,'...',
-kOOOOOOOOOdlOXOkxkOKNWWWWWWWNKOkxxxdddddl,'cdlcl:kNWWWWNNNNXXKKkoooclddlcokkd::dodXXO:,:;,;:;;:;''..
-kOOOOOOOxddONWWWNNNXKKKKXWWWWWWWWNNXKKKK0dcdkdlockNWWNXKKKK0000OOxloxdodxxdxxokXK0Okx;';::::::cc;,,'
-xOOOkxxkk0NWWN0kdddddoooodxkKNWWWWWWWWWWWKookxlocoKKKK00000000Okdooxd::oxxO0OOKNN0xk0x;;:c:;collccc,
-cxxddOKNWWWWKo;,:looodxdoc:;cOXNNNWNNXXX0xcokxooccxO00000Okxddl;,cl::;,;;,;;ckNWNNNXX0o,,;;;o00xoll;
-dOOOXWWWWWNOl;,;:lolcloc:::::cd0KKKKK00Ol;lxkkddc;;lkkkxl;;,',,'';:looooodxxOXXOxOXN0kxdl;,;:lO0xlo:
-XWWWWWWWWWKl:odo:;;clc::loooddlloxdolllccoxdolooc,,;;,,'''''....',;:;;,;:ldxddo:;cokKXNNXOo:c;;oo::;
-NWWWWWNNXXXkllc:;:odl:;;okOOkxoc:,....;odc;'',;;,'.'''..',,,,,,,'.'''',,,,;:;,;;,,,';cd0KX0ol:,;::;,
-XNNNWNXXXXKKOd:,;;;;ldl,;c:,'...'''..'cc;'',,,'.''''',,'''.''.';,'',,;;;;;.......'....ckoo0XKo;,;:c;
-0XXXXXXXXXKKKKd..'..,,..'......',,,'..',,,;;;,,'.''',;;;,'..;;;;,,;;;;;;;,...'''',;::;c00lxNNk:;:::;
-OKKKKKXXXXXKKK0xl:,,;:cc:,''......''';::ccccc:::,'.',,'..'..,;,'.'cllll:;;:::'.,:ccllccdKkoONKc';;;,
-kKKKXKKKKKKKKXXXOlcdxkkxl;,,,'..',;::::;;:clc;';:;,...........'.':c::::,'..''..'',,,:loookoc0Kc.,;;'
-k000K0000000KKKKdcc;,;;;;;;:;,,:oddxdolc:;,'....'.........'...'.':;,,cool,...,:llllodxxdlll,ckd'';c;
-x0000000000000KKkolc;..';;,,,;:okdccc;'..,'.  ........'...'...'..''''.',,..',;:::;:cloc;:oc,,cx:';;,
-k00000000000000KKKKK0kl,,:odkO0Oo,..,;;;:;'.. ............'...'............',;cc,.,::;;,,,,,,cd:'','
-k00000OO0OO00OO00K0000k:;cc;;cl:...;cc:,..................'...'..........'....':::cloc::;:l:;lc...'.
-dOOOOOOOOOOOOOOOOOOOxdxdc;,......,:;,.....................''.',...................'','''.''.........
-oOOOOkdlcdkkkkkOOkkdc:cxkkkoc:'';lc,'.....................''.',.....................................
-dkxdolloc:oddddoooccodccccllooloxOkxxl....................'...'...'''...........    ................
-llllodxxxolc:;:clloloollddlc::;;:clll,...'..............'''.......',,''.''........ .................
-lloooooooolccclllloll::::c::::;;,,,;,.............................'''...............................
-looooddddddoolllloooooloddoooollllllllllllololllllcccclllllllllllllllc::cccccccllcccccllccccccccccc;
-O000KKKKKK0kodc,coldxc:x0Ol;ld:;lolcd00O000000Od:;:cc::oxl:clcclxOxlclooccokxc;okOOOO00OOOOOOOkkkkOd
-O000KKKKKK0OO0o'cOkkk;'ldl,.ox,.;:cdk0000000000d'';cclll;'lxkkc.;o;.:kOkl''ok:.cOOOOO0000OOOOOOOOOOd
-O00KKKKKKKK000d'c000k;,dkd,'ox,.clokxk000000000d''clodOx,'oOOkc':o;.ckOOo',dx;.cOOxoxOOOOOOOOOOOOOOd
-O00KKKKKK0000Oo:o0K0k:;x0k:,od;,coocck00000000Ol',cdOOOOd::llcclkOdc:ccc:cdxo;':lc;:xOkl:dOOOOOOOOOd
-kOOOOO0OOOOOOOOOO0OOOkkkOOkxkkxxkkkkkOOOOO000OOxddoxOOOOOOkkkkOOOOOOkxdxkOOkxxxxxxxkOOOxdxOOOOOOOOkd
-:cccccccccccccccllccccccccccccccclccllclllllllclllllllcllllllllllllllloooooooooooollllllllllllccccc:
+MMMMMMMMMMMMMN0xo:;,,,,.  .',,,;:lx0NWMMMMMMMMMMMM
+MMMMMMMMMWXxc,,;cdk0KXk'  .xXX0kdl;,,cxKWMMMMMMMMM
+MMMMMMMNkc',lkKWMMMMMNc....;XMMMMMWXkl,':kNMMMMMMM
+MMMMMNk;':kNMMMMMMMMWx.;O0c.oWMMMMMMMMNOc',xNMMMMM
+MMMW0:.:OWMMMMMMMMMM0,.kWM0''OMMMMMMMMMMW0c.;OWMMM
+MMNx.'kNMMMMMMMMMMMNl.lNMMWd.:XMMMMMMMMMMMWO,.oNMM
+MNo.;0MMMMMMMMMMMMWx.,KMMMMX:.dWMMMMMMMMMMMMKc.lXM
+Wd.;0WWWWWWWWWWWWW0,.xNWWWWWk.'OWWWWWWWWWWWWWK:.lN
+k. .,;;;;;;;;;;;;;. .,;;;;;;;. .;;;;;;;;;;;;;,. .x
+:.;:. .lxkkkOkkOkc.'dOkkOOOkOx, ;kOkkOkkkkl' .;:.,
+.'0WKd;';dKWMMMMK;.xWMMMMMMMMMO.'0MMMMWXx:';o0WK;.
+.:XMMMN0o,':xXWWo.cNMMMMMMMMMMWo.cNMNkc',lONMMMNc
+ :NMMMMMMNOc,,cl.'0MMMMMMMMMMMMK;.cl,'ckXMMMMMMWl
+.;XMMMMMMMMWXx;  ,OWMMMMMMMMMMW0;  ,xKWMMMMMMMMN:
+'.OMMMMMMMMMMWo.';';dKWMMMMWXx:','.cNMMMMMMMMMM0'.
+o.cNMMMMMMMMMO''ON0o,':x0Kkc',lONK,.xWMMMMMMMMWo.c
+K;.xWMMMMMMMX:.dWMMMNx' .. .dXWMMWk.,KMMMMMMMWk.'0
+MO'.kWMMMMMWd.:XMMW0o;':lo:',o0WMMNl.lNMMMMMWO'.kW
+MWO,.dNMMMMO''OWKx:';o0WMMWKd;';dKW0,.kWMMMWx''kWM
+MMMKc.:0WMX:.cxc',lONMMMMMMMMW0o,':xl.;KMWKc.;0WMM
+MMMMNk,.cOo. .'ckXMMMMMMMMMMMMMMNOc,.  lOo''dNMMMM
+MMMMMMXx;.. 'dXWMMMMMMMMMMMMMMMMMMWXx,  .,dXMMMMMM
+MMMMMMMMNOl,':oOXWMMMMMMMMMMMMMMWXOd:''ckNMMMMMMMM
+MMMMMMMMMMMNOo:;,;:lodxkkkkxdol:;,,:oOXWMMMMMMMMMM
+MMMMMMMMMMMMMMWXOo:'..      ..';okXWMMMMMMMMMMMMMM
 ```
+
+---
+
+## Instructions
+
+> **Note:** Python 3 is required.
+
+Clone this repository and `cd` into the `/command_line_tarot` directory. To ensure that the CLI Tarot is working properly, invoke the help text:
+
+```bash
+$ python3 main.py --help
+
+usage: main.py [-h] [-fd [FREE_DRAW] | -s | -cm [CARD_MEANING] | -cd [CARD_DIRECTORY]] [{None}]
+
+A command line tarot reader!
+
+positional arguments:
+  {None}                Pass in no args for a single card reading
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -fd [FREE_DRAW], --free_draw [FREE_DRAW]
+
+                            'Free Draw'
+
+                            Read a specific number of cards
+                            (passed as an integer after the '-fd'
+                            flag; defaults to a single-card pull)
+
+  -s, --seen
+                            'Seen Heard Held'
+
+                            A 4-card spread which reveals:
+                            Card 1 - What needs to be seen
+                            Card 2 - What needs to be heard
+                            Card 3 - What needs to be held
+                            Card 4 - Action to be taken
+
+                            Optional: Pull a single card afterwards as a clarifier
+
+  -cm [CARD_MEANING], --card_meaning [CARD_MEANING]
+                        Display the meaning of a specified card
+  -cd [CARD_DIRECTORY], --card-directory [CARD_DIRECTORY]
+                        Display the meaning of a specified card
+```
+
+---
+
+## Basic Commands
+
+- Command 1
+- Spread 2
+- Etc etc
