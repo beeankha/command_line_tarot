@@ -1,0 +1,12 @@
+card_dict = {0: "The Fool",
+             1: "The Magician",
+             2: "The High Priestess",
+             3: "The Empress",
+             4: "The Emperor",
+             5: "The Hierophant",
+             6: "The Lovers",
+             7: "The Chariot",
+             8: "Strength",
+             9: "The Hermit",
+             10: "Wheel of Fortune",
+             }
