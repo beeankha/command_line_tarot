@@ -40,26 +40,27 @@ parser.add_argument("-s", "--seen",
     Card 4 - Action to be taken\n
     Optional: Pull a single card afterwards as a clarifier
                     """,
-                    type=int,
-                    nargs="?",
-                    const=constants.seen,
+                    dest="seen",
+                    action="store_true",
                     required=False,
                     )
 
-# parser.add_argument("-c", "--card",
-#                     type=int,
-#                     nargs="?",
-#                     default=constants.default_count,
-#                     help="Display the meaning of a specified card"
-#                     )
-#
-#
-# parser.add_argument("-cd", "--card-directory",
-#                     type=int,
-#                     nargs="?",
-#                     default=constants.default_count,
-#                     help="Display the meaning of a specified card"
-#                     )
+parser.add_argument("-cm", "--card_meaning",
+                    type=int,
+                    nargs="?",
+                    default=None,
+                    help="Display the meaning of a specified card",
+                    required=False,
+                    )
+
+
+parser.add_argument("-cd", "--card-directory",
+                    type=int,
+                    nargs="?",
+                    default=None,
+                    help="Display the meaning of a specified card",
+                    required=False,
+                    )
 
 
 args = parser.parse_args()
@@ -72,21 +73,16 @@ cards = random.sample(reading, k=args.card)
 
 if args.seen:
     args.card = None
-    cards = random.sample(reading, k=4)
-    print(f"\n👁 To Be Seen 👁")
-    print(f"{cards[0]}\r")
-    print(f"\n👂 To Be Heard 👂")
-    print(f"{cards[1]}\r")
-    print(f"\n🫂 To Be Held 🫂")
-    print(f"{cards[2]}\r")
-    print(f"\n💫 Action 💫")
-    print(f"{cards[3]}\n")
-elif args.card == 1 and args.free_draw is None:
+    cards = random.sample(reading, k=constants.seen)
+    print("""
+    \r👁 To Be Seen 👁\n{0}\n\n👂 To Be Heard 👂\n{1}
+    \n🫂 To Be Held 🫂\n{2}\n\n💫 Action 💫\n{3}\n""".format(cards[0], cards[1], cards[2], cards[3]))
+elif args.card == 1 and (args.free_draw is None or args.free_draw == 1):
     args.free_draw = None
     print(f"\n✨ Your single card drawing is: ✨")
     print(*cards, sep = "\n")
     print("\r")
-elif args.free_draw >= 1:
+elif args.free_draw > 1:
     cards = random.sample(reading, k=args.free_draw)
     print(f"\n✨ You have pulled the following {args.free_draw} cards: ✨\n")
     print(*cards, sep = "\n")
