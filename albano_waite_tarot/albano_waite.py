@@ -24,6 +24,18 @@ parser.add_argument("card",
                     help="Pass in no args for a single card reading"
                     )
 
+parser.add_argument("-v", "--verbosity",
+                    # action="count",
+                    default=0,
+                    type=int,
+                    choices=[0, 1, 2],
+                    help="""
+    Level 1 verbosity will show the meaning of the card
+    in a single card reading, while Level 2 verbosity will
+    display the card art in a single card reading or when
+    invoking '--card_meaning'.
+                    """,
+                    )
 
 group.add_argument("-fd", "--free_draw",
                     type=int,
@@ -102,7 +114,10 @@ elif args.card == 1 and (args.free is None or args.free == 1):
     print(index)
     print(f"\n✨ Your single card drawing is: ✨")
     print(*cards, sep = "\n")
-    print(f"\n{card_meanings.meanings[index]}\n")
+    if args.verbosity == 1:
+        print(f"\n{card_meanings.meanings[index]}\n")
+    elif args.verbosity == 2:
+        print("Card art goes here.\n")
 elif args.free > 1:
     cards = random.sample(reading, k=args.free)
     print(f"\n✨ You have pulled the following {args.free} cards: ✨\n")
