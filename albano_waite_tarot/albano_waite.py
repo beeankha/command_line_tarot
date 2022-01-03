@@ -1,4 +1,5 @@
 import argparse
+import ascii_art
 import constants
 import card_directory
 import card_meanings
@@ -24,16 +25,20 @@ parser.add_argument("card",
                     help="Pass in no args for a single card reading"
                     )
 
-parser.add_argument("-v", "--verbosity",
-                    # action="count",
-                    default=0,
-                    type=int,
-                    choices=[0, 1, 2],
+parser.add_argument("-m", "--meaning",
+                    default=False,
+                    action="store_true",
                     help="""
-    Level 1 verbosity will show the meaning of the card
-    in a single card reading, while Level 2 verbosity will
-    display the card art in a single card reading or when
-    invoking '--card_meaning'.
+    When invoked, this flag will display the meaning of
+    the cards.
+                    """,
+                    )
+
+parser.add_argument("-a", "--art",
+                    default=False,
+                    action="store_true",
+                    help="""
+    Invoke this flag to show the card's art.
                     """,
                     )
 
@@ -91,17 +96,27 @@ reading = [card_directory.card_dict[k] for k in card_directory.card_dict]
 
 
 # Great debugging print statement to see what args are invoked + what their values are!
-# print(args)
+print(args)
 
 list_index = list(card_meanings.meanings.keys())
 
 if args.seen:
     args.card = None
     cards = random.sample(reading, k=constants.seen)
-    print(cards)
     print("""
     \r👁 To Be Seen 👁\n{0}\n\n👂 To Be Heard 👂\n{1}
     \n🫂 To Be Held 🫂\n{2}\n\n💫 Action 💫\n{3}\n""".format(cards[0], cards[1], cards[2], cards[3]))
+    for i in range(len(cards)):
+        index = int(re.search(r'\((.*?)\)', cards[i]).group(1))
+        if args.meaning is True and args.art is False:
+            print(f"\n{card_meanings.meanings[index]}\n")
+        if args.meaning is True and args.art is True:
+            print(f"\n{card_meanings.meanings[index]}\n")
+            print("Card art goes here.\n")
+            print(f"\n{ascii_art.card_art[index]}\n")
+        if args.meaning is False and args.art is True:
+            print("Card art goes here.\n")
+            print(f"\n{ascii_art.card_art[index]}\n")
 elif args.card == 1 and args.meaning is None:
     print("You need to specify a card ID!")
 elif args.card == 1 and args.meaning < 78:
@@ -114,10 +129,12 @@ elif args.card == 1 and (args.free is None or args.free == 1):
     print(index)
     print(f"\n✨ Your single card drawing is: ✨")
     print(*cards, sep = "\n")
-    if args.verbosity == 1:
+    if args.meaning:
         print(f"\n{card_meanings.meanings[index]}\n")
-    elif args.verbosity == 2:
+    if args.art:
         print("Card art goes here.\n")
+        print(f"\n{ascii_art.card_art[index]}\n")
+
 elif args.free > 1:
     cards = random.sample(reading, k=args.free)
     print(f"\n✨ You have pulled the following {args.free} cards: ✨\n")
