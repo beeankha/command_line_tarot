@@ -25,7 +25,7 @@ parser.add_argument("card",
                     help="Pass in no args for a single card reading"
                     )
 
-parser.add_argument("-m", "--meaning",
+parser.add_argument("-i", "--interpretation",
                     default=False,
                     action="store_true",
                     help="""
@@ -96,11 +96,14 @@ reading = [card_directory.card_dict[k] for k in card_directory.card_dict]
 
 
 # Great debugging print statement to see what args are invoked + what their values are!
-print(args)
+# print(args)
 
 list_index = list(card_meanings.meanings.keys())
 
 if args.seen:
+    # TODO: Add in time breaks
+    # TODO: Split up print statements so that art + interpretations
+    # appear together with cards that are drawn
     args.card = None
     cards = random.sample(reading, k=constants.seen)
     print("""
@@ -108,34 +111,37 @@ if args.seen:
     \n🫂 To Be Held 🫂\n{2}\n\n💫 Action 💫\n{3}\n""".format(cards[0], cards[1], cards[2], cards[3]))
     for i in range(len(cards)):
         index = int(re.search(r'\((.*?)\)', cards[i]).group(1))
-        if args.meaning is True and args.art is False:
+        if args.interpretation is True and args.art is False:
             print(f"\n{card_meanings.meanings[index]}\n")
-        if args.meaning is True and args.art is True:
+        if args.interpretation is True and args.art is True:
+            print(f"\n{ascii_art.card_art[index]}\n")
             print(f"\n{card_meanings.meanings[index]}\n")
+        if args.interpretation is False and args.art is True:
             print("Card art goes here.\n")
             print(f"\n{ascii_art.card_art[index]}\n")
-        if args.meaning is False and args.art is True:
-            print("Card art goes here.\n")
-            print(f"\n{ascii_art.card_art[index]}\n")
+
 elif args.card == 1 and args.meaning is None:
-    print("You need to specify a card ID!")
+    print("You need to specify a card ID! (choose between 0 and 77)")
+
 elif args.card == 1 and args.meaning < 78:
+    # TODO: Add ability to display card art
     meaning = list_index.index(args.meaning)
     print(f"\n{card_meanings.meanings[meaning]}\n")
+
 elif args.card == 1 and (args.free is None or args.free == 1):
     cards = random.sample(reading, k=args.card)
     index = int(re.search(r'\((.*?)\)', cards[0]).group(1))
-    args.free = None
     print(index)
+    args.free = None
     print(f"\n✨ Your single card drawing is: ✨")
     print(*cards, sep = "\n")
-    if args.meaning:
-        print(f"\n{card_meanings.meanings[index]}\n")
     if args.art:
-        print("Card art goes here.\n")
         print(f"\n{ascii_art.card_art[index]}\n")
+    if args.interpretation:
+        print(f"\n{card_meanings.meanings[index]}\n")
 
 elif args.free > 1:
+    # TODO: Add in ability to see interpretations and/or art
     cards = random.sample(reading, k=args.free)
     print(f"\n✨ You have pulled the following {args.free} cards: ✨\n")
     print(*cards, sep = "\n")
