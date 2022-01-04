@@ -88,10 +88,10 @@ kOOO0OOO00O0000O000000000OOOOOOOOkOOOkkkOkkOOkkkOOOOOOOOO0O00O0OOO00000000000000
 
 Clone this repository and `cd` into the `/albano_waite` directory. To ensure that the CLI Tarot is working properly, invoke the help text:
 
-```bash
+```
 $ python3 albano_waite.py --help
 
-usage: albano_waite.py [-h] [-fd  | -s | -cm ] [{None}]
+usage: albano-waite [-h] [-i] [-a] [-fd  | -s | -cm ] [{None}]
 
 A command line tarot reader based on the Albano-Waite deck!
 
@@ -100,6 +100,13 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
+  -i, --interpretation
+                            When invoked, this flag will display the meaning of
+                            the cards.
+
+  -a, --art
+                            Invoke this flag to show the card's art.
+
   -fd [], --free_draw []
 
                             'Free Draw'
@@ -122,17 +129,19 @@ optional arguments:
 
   -cm [], --card_meaning []
 
-                            Display the meaning of a specified card via
+                            Display the meaning of a specific card via
                             the assigned ID number (e.g., "-cd 0" will
                             look up '(0) The Fool')
 
 
-                            Note: IDs range in number from 0 to 77```
+                            Note: IDs range in number from 0 to 77
+
+
+Happy tarot-ing! 😄
+```
 
 ---
 
 ## Basic Commands
 
-- Command 1
-- Spread 2
-- Etc etc
+🚧  _this section is coming soon!_ 🚧

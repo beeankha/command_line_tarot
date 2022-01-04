@@ -6,10 +6,10 @@ import card_meanings
 import random
 import re
 import sys
+import time
 
 from argparse import RawTextHelpFormatter
 
-print(sys.argv[0])
 parser = argparse.ArgumentParser(
     prog="albano-waite",
     description="A command line tarot reader based on the Albano-Waite deck!",
@@ -92,7 +92,7 @@ group.add_argument("-cm", "--card_meaning",
 args = parser.parse_args()
 
 
-reading = [card_directory.card_dict[k] for k in card_directory.card_dict]
+reading = list(card_directory.card_dict.values())
 
 
 # Great debugging print statement to see what args are invoked + what their values are!
@@ -101,23 +101,34 @@ reading = [card_directory.card_dict[k] for k in card_directory.card_dict]
 list_index = list(card_meanings.meanings.keys())
 
 if args.seen:
-    # TODO: Add in time breaks
+    print(reading)
     # TODO: Split up print statements so that art + interpretations
     # appear together with cards that are drawn
     args.card = None
     cards = random.sample(reading, k=constants.seen)
-    print("""
-    \r👁 To Be Seen 👁\n{0}\n\n👂 To Be Heard 👂\n{1}
-    \n🫂 To Be Held 🫂\n{2}\n\n💫 Action 💫\n{3}\n""".format(cards[0], cards[1], cards[2], cards[3]))
+    time.sleep(1)
+    print(f"\n👁 To Be Seen 👁\n{cards[0]}")
+    time.sleep(1.5)
+    print(f"\n👂 To Be Heard 👂\n{cards[1]}")
+    time.sleep(1.5)
+    print(f"\n🫂 To Be Held 🫂\n{cards[2]}")
+    time.sleep(1.5)
+    print(f"\n💫 Action 💫\n{cards[3]}")
+    time.sleep(1)
     for i in range(len(cards)):
         index = int(re.search(r'\((.*?)\)', cards[i]).group(1))
         if args.interpretation is True and args.art is False:
+            print("...interpreting...")
+            time.sleep(2)
             print(f"\n{card_meanings.meanings[index]}\n")
         if args.interpretation is True and args.art is True:
+            print("...interpreting and generating card art...")
+            time.sleep(2)
             print(f"\n{ascii_art.card_art[index]}\n")
             print(f"\n{card_meanings.meanings[index]}\n")
         if args.interpretation is False and args.art is True:
-            print("Card art goes here.\n")
+            print("...generating card art...")
+            time.sleep(2)
             print(f"\n{ascii_art.card_art[index]}\n")
 
 elif args.card == 1 and args.meaning is None:
@@ -126,18 +137,25 @@ elif args.card == 1 and args.meaning is None:
 elif args.card == 1 and args.meaning < 78:
     # TODO: Add ability to display card art
     meaning = list_index.index(args.meaning)
+    card = str(card_directory.card_dict[args.meaning])
+    print(f"...looking up meaning for: {card}")
+    time.sleep(2)
     print(f"\n{card_meanings.meanings[meaning]}\n")
 
 elif args.card == 1 and (args.free is None or args.free == 1):
     cards = random.sample(reading, k=args.card)
     index = int(re.search(r'\((.*?)\)', cards[0]).group(1))
-    print(index)
     args.free = None
+    time.sleep(1)
     print(f"\n✨ Your single card drawing is: ✨")
+    time.sleep(1.5)
     print(*cards, sep = "\n")
     if args.art:
+        time.sleep(1)
+        print("...interpreting...")
         print(f"\n{ascii_art.card_art[index]}\n")
     if args.interpretation:
+        print("...generating card art...")
         print(f"\n{card_meanings.meanings[index]}\n")
 
 elif args.free > 1:
