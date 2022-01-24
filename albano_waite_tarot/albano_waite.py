@@ -102,8 +102,6 @@ list_index = list(card_meanings.meanings.keys())
 
 if args.seen:
     print(reading)
-    # TODO: Split up print statements so that art + interpretations
-    # appear together with cards that are drawn
     args.card = None
     cards = random.sample(reading, k=constants.seen)
     time.sleep(1)
@@ -135,9 +133,14 @@ elif args.card == 1 and args.meaning is None:
     print("You need to specify a card ID! (choose between 0 and 77)")
 
 elif args.card == 1 and args.meaning < 78:
-    # TODO: Add ability to display card art
     meaning = list_index.index(args.meaning)
     card = str(card_directory.card_dict[args.meaning])
+    if args.art is True:
+        time.sleep(1)
+        print(f"Displaying card art for: {card}")
+        time.sleep(2)
+        print(f"\n{ascii_art.card_art[meaning]}\n")
+        time.sleep(3)
     print(f"...looking up meaning for: {card}")
     time.sleep(2)
     print(f"\n{card_meanings.meanings[meaning]}\n")
@@ -152,15 +155,30 @@ elif args.card == 1 and (args.free is None or args.free == 1):
     print(*cards, sep = "\n")
     if args.art:
         time.sleep(1)
-        print("...interpreting...")
+        print("...generating card art...")
         print(f"\n{ascii_art.card_art[index]}\n")
     if args.interpretation:
-        print("...generating card art...")
+        print("...interpreting...")
         print(f"\n{card_meanings.meanings[index]}\n")
 
 elif args.free > 1:
-    # TODO: Add in ability to see interpretations and/or art
     cards = random.sample(reading, k=args.free)
     print(f"\n✨ You have pulled the following {args.free} cards: ✨\n")
+    time.sleep(1.5)
     print(*cards, sep = "\n")
     print("\r")
+    for i in range(len(cards)):
+        index = int(re.search(r'\((.*?)\)', cards[i]).group(1))
+        if args.interpretation is True and args.art is False:
+            print("...interpreting...")
+            time.sleep(2)
+            print(f"\n{card_meanings.meanings[index]}\n")
+        if args.interpretation is True and args.art is True:
+            print("...interpreting and generating card art...")
+            time.sleep(2)
+            print(f"\n{ascii_art.card_art[index]}\n")
+            print(f"\n{card_meanings.meanings[index]}\n")
+        if args.interpretation is False and args.art is True:
+            print("...generating card art...")
+            time.sleep(2)
+            print(f"\n{ascii_art.card_art[index]}\n")
