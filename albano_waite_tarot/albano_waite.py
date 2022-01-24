@@ -133,9 +133,14 @@ elif args.card == 1 and args.meaning is None:
     print("You need to specify a card ID! (choose between 0 and 77)")
 
 elif args.card == 1 and args.meaning < 78:
-    # TODO: Add ability to display card art
     meaning = list_index.index(args.meaning)
     card = str(card_directory.card_dict[args.meaning])
+    if args.art is True:
+        time.sleep(1)
+        print(f"Displaying card art for: {card}")
+        time.sleep(2)
+        print(f"\n{ascii_art.card_art[meaning]}\n")
+        time.sleep(3)
     print(f"...looking up meaning for: {card}")
     time.sleep(2)
     print(f"\n{card_meanings.meanings[meaning]}\n")
