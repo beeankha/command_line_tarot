@@ -29,3 +29,13 @@ MMMMMMMMNOl,':oOXWMMMMMMMMMMMMMMWXOd:''ckNMMMMMMMM
 MMMMMMMMMMMNOo:;,;:lodxkkkkxdol:;,,:oOXWMMMMMMMMMM
 MMMMMMMMMMMMMMWXOo:'..      ..';okXWMMMMMMMMMMMMMM
 ```
+
+## Albano-Waite
+
+Access the classic tarot deck [here](albano_waite_tarot/README.md).
+
+## [General Tarot Reference](REFERENCE.md)
+
+### (🔮 other tarot decks coming soon! 🔮)
+
+Please request specific decks via a GitHub issue!

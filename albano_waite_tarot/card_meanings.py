@@ -4,9 +4,23 @@ meanings = {0: """
     [ meaning ]
     """,
      1: """
-    How to interpret The Magician card:
+    The Magician represents strength of will, intuition, self-control, self-confidence,
+    autonomy, and diplomacy. The positive qualities of humankind: skill, initiative,
+    intelligence, discernment, and comprehension; freedom from control by others. All
+    of these can lead to success and the ability to control your environment.
 
-    [ meaning ]
+    Think about the times that you've wanted something so badly that you mustered every
+    ounce of your power to make it happen; the Magician represents *that* level of willpower.
+    This card also means skill, talent, and having all the tools you need to make incredible
+    things happen.
+
+    In effect, the Magician is one who has the potential to be like a god. If this card
+    represents the querent, then you are the one who has the power (or the potential for it)
+    to control your immediate world. Are you developing this potential or throwing it away on
+    demonstrations of mundanity? The rest of the cards in the reading can illuminate this.
+
+    The power is yours. It's up to you to stand in that power.
+
     """,
      2: """
     How to interpret The High Priestess card:
