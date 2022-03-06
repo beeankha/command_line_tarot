@@ -78,8 +78,8 @@ group.add_argument("-cm", "--card_meaning",
                     default=constants.default_meaning,
                     help="""
     Display the meaning of a specific card via
-    the assigned ID number (e.g., "-cd 0" will
-    look up '(0) The Fool')
+    the assigned ID number (e.g., "-cm 0" will
+    look up the meaning for '(0) The Fool')
     \n
     Note: IDs range in number from 0 to 77
                     """,
@@ -138,13 +138,13 @@ elif args.card == 1 and args.meaning < 78:
     card = str(card_directory.card_dict[args.meaning])
     if args.art is True:
         time.sleep(1)
-        print(f"Displaying card art for: {card}")
+        print(f"\nDisplaying card art for:\n{card}")
         time.sleep(2)
         print(f"\n{ascii_art.card_art[meaning]}\n")
-        time.sleep(3)
-    print(f"...looking up meaning for: {card}")
+        time.sleep(2)
+    print(f"\n...looking up meaning for:\n{card}")
     time.sleep(2)
-    print(f"\n{card_meanings.meanings[meaning]}\n")
+    print(f"{card_meanings.meanings[meaning]}\n")
 
 elif args.card == 1 and (args.free is None or args.free == 1):
     cards = random.sample(reading, k=args.card)
