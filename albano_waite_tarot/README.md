@@ -89,7 +89,7 @@ kOOO0OOO00O0000O000000000OOOOOOOOkOOOkkkOkkOOkkkOOOOOOOOO0O00O0OOO00000000000000
 Clone this repository and `cd` into the `/albano_waite` directory. To ensure that the CLI Tarot is working properly, invoke the help text:
 
 ```
-$ python3 albano_waite.py --help
+$ python3 -m albano_waite --help
 
 usage: albano-waite [-h] [-i] [-a] [-fd  | -s | -cm ] [{None}]
 

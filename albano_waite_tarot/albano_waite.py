@@ -101,9 +101,14 @@ reading = list(card_directory.card_dict.values())
 list_index = list(card_meanings.meanings.keys())
 
 if args.seen:
-    print(reading)
     args.card = None
     cards = random.sample(reading, k=constants.seen)
+    for i in range(len(cards)):
+        index = int(re.search(r'\((.*?)\)', cards[i]).group(1))
+        if args.interpretation is False and args.art is True:
+            print("...generating card art...")
+            time.sleep(2)
+            print(f"\n{ascii_art.card_art[index]}\n")
     time.sleep(1)
     print(f"\n👁 To Be Seen 👁\n{cards[0]}")
     time.sleep(1.5)
@@ -124,10 +129,6 @@ if args.seen:
             time.sleep(2)
             print(f"\n{ascii_art.card_art[index]}\n")
             print(f"\n{card_meanings.meanings[index]}\n")
-        if args.interpretation is False and args.art is True:
-            print("...generating card art...")
-            time.sleep(2)
-            print(f"\n{ascii_art.card_art[index]}\n")
 
 elif args.card == 1 and args.meaning is None:
     print("You need to specify a card ID! (choose between 0 and 77)")
@@ -153,12 +154,21 @@ elif args.card == 1 and (args.free is None or args.free == 1):
     print(f"\n✨ Your single card drawing is: ✨")
     time.sleep(1.5)
     print(*cards, sep = "\n")
-    if args.art:
-        time.sleep(1)
+    if args.interpretation is False and args.art is True:
+        time.sleep(1.5)
         print("...generating card art...")
+        time.sleep(2)
         print(f"\n{ascii_art.card_art[index]}\n")
-    if args.interpretation:
-        print("...interpreting...")
+    if args.interpretation is True and args.art is False:
+        time.sleep(1.5)
+        print("...looking up interpretation...")
+        time.sleep(2)
+        print(f"\n{card_meanings.meanings[index]}\n")
+    if args.interpretation is True and args.art is True:
+        time.sleep(1.5)
+        print("...interpreting and generating card art...")
+        time.sleep(2)
+        print(f"\n{ascii_art.card_art[index]}\n")
         print(f"\n{card_meanings.meanings[index]}\n")
 
 elif args.free > 1:
