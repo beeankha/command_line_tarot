@@ -11,7 +11,7 @@ import time
 from argparse import RawTextHelpFormatter
 
 parser = argparse.ArgumentParser(
-    prog="albano-waite",
+    prog="cli-tarot",
     description="A command line tarot reader based on the Albano-Waite deck!",
     formatter_class=RawTextHelpFormatter,
     epilog="Happy tarot-ing! 😄"
@@ -68,6 +68,54 @@ group.add_argument("-s", "--seen_heard_held",
     Optional: Pull a single card afterwards as a clarifier
                     """,
                     dest="seen",
+                    action="store_true",
+                    required=False,
+                    )
+
+group.add_argument("-cc", "--celtic_cross",
+                    help="""
+    'Celtic Cross'\n
+    A 10-card spread which reveals:
+    Card 1 - The present condition of the querent
+    Card 2 - Immediate influence / obstacles
+    Card 3 - Goal / destiny according to existing circumstances
+    Card 4 - Distant past foundation
+    Card 5 - Recent past events
+    Card 6 - Future influence
+    Card 7 - The questioner
+    Card 8 - Environmental factors
+    Card 9 - Inner emotions
+    Card 10 - Final results\n
+                    """,
+                    dest="celtic",
+                    action="store_true",
+                    required=False,
+                    )
+
+group.add_argument("-ppf", "--past_present_future",
+                    help="""
+    'Past, Present, and Future'\n
+    A 3-card spread which reveals:
+    Card 1 - Past
+    Card 2 - Present
+    Card 3 - Future\n
+    Optional: Pull a single card afterwards as a clarifier
+                    """,
+                    dest="ppf",
+                    action="store_true",
+                    required=False,
+                    )
+
+group.add_argument("-ch", "--choices",
+                    help="""
+    'Choices'\n
+    A 3-card spread which reveals:
+    Card 1 - Choice 1
+    Card 2 - Choice 2
+    Card 3 - Advice\n
+    Optional: Pull a single card afterwards as a clarifier
+                    """,
+                    dest="choices",
                     action="store_true",
                     required=False,
                     )
@@ -129,6 +177,12 @@ if args.seen:
             time.sleep(2)
             print(f"\n{ascii_art.card_art[index]}\n")
             print(f"\n{card_meanings.meanings[index]}\n")
+
+# TODO: Celtic Cross Reading
+
+# TODO: Past, Present, Future Spread
+
+# TODO: Choices Spread
 
 elif args.card == 1 and args.meaning is None:
     print("You need to specify a card ID! (choose between 0 and 77)")
