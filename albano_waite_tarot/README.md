@@ -67,7 +67,7 @@ If you'd also like to see the ASCII art for a specific card along with its meani
 
 `$ python3 -m albano_waite -cm 26 -a`
 
-```bash
+```
 Displaying card art for:
 
     (26) Five of Wands
