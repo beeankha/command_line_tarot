@@ -168,12 +168,32 @@ Displaying card art for:
     [ meaning ]
 ```
 
+### The "Seen, Heard, Held" Spread
+
+[XYZ]
+
+
+### Celtic Cross
+
+[XYZ]
+
+
+### Past, Present, and Future
+
+[XYZ]
+
+
+### The "Choices" Spread
+
+[XYZ]
+
+
 ## General Reference
 
 For some general tarot information, check out [this document](REFERENCE.md).
 
 
 * * *
-### (🔮 other spreads coming soon! 🔮)
+### (🔮 more spreads can be added! 🔮)
 
-If you'd like to see a specific spread implemented here, please file an issue! 
+If you'd like to see a specific spread implemented here, please file an issue!
