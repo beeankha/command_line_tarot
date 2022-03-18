@@ -204,6 +204,11 @@ Displaying card art for:
 [XYZ]
 
 
+### Output Readings to a File
+
+In order to output/save any particular readings, invoke the `-o`/`--output` flag. Certain features such as "card meaning" do not have file output as an option, but this is a useful option for longer free-draw readings and multi-card readings such as the Celtic Cross.
+
+
 ## General Reference
 
 For some general tarot information, check out [this document](REFERENCE.md).

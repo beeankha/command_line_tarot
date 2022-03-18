@@ -10,7 +10,7 @@ long_description = (this_directory / "PYPI_DESC.md").read_text()
 
 
 setup(
-        name ='cli_tarot',
+        name ='cli-tarot',
         version ='0.1.0',
         author ='Bianca Henderson',
         author_email ='beeankha@gmail.com',
