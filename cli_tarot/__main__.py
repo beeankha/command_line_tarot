@@ -224,9 +224,6 @@ def main():
         print(f"{card_meanings.meanings[meaning]}\n")
 
     # For single card readings
-    elif args.free > 78:
-        print("You have chosen a number of cards larger than what is available! Please specify a number between 1 and 78.")
-
     elif args.card == 1 and (args.free is None or args.free == 1):
         cards = random.sample(reading, k=args.card)
         index = int(re.search(r'\((.*?)\)', cards[0]).group(1))
