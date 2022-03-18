@@ -8,7 +8,7 @@ This project is meant to be a ~~nerdy~~ convenient way to get a tarot reading vi
 
 ---
 
-## Instructions
+## Instructions for Running Locally
 
 > **Note:** Python 3 is required.
 
@@ -30,6 +30,22 @@ optional arguments:
 ~snip~
 
 Happy tarot-ing! 😄
+```
+
+---
+
+## Install from PyPI
+
+Create and activate a virtual environment or a `conda` env that has Python 3.9, then run the following:
+
+```
+$ pip install cli-tarot
+```
+
+To ensure that the package is properly installed, run:
+
+```
+$ cli-tarot --help
 ```
 
 ---
