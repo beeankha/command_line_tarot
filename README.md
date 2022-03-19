@@ -8,7 +8,7 @@ This project is meant to be a ~~nerdy~~ convenient way to get a tarot reading vi
 
 ---
 
-## Installing from PyPI
+## Instructions for Installing from PyPI
 
 Create and activate a virtual environment or a `conda` env that has Python 3.9, then run the following:
 
@@ -186,22 +186,22 @@ Displaying card art for:
 
 ### The "Seen, Heard, Held" Spread
 
-[XYZ]
+🚧 Under Construction (coming soon!) 🚧
 
 
 ### Celtic Cross
 
-[XYZ]
+🚧 Under Construction (coming soon!) 🚧
 
 
 ### Past, Present, and Future
 
-[XYZ]
+🚧 Under Construction (coming soon!) 🚧
 
 
 ### The "Choices" Spread
 
-[XYZ]
+🚧 Under Construction (coming soon!) 🚧
 
 
 ### Output Readings to a File
