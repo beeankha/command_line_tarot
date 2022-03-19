@@ -8,7 +8,7 @@ This project is meant to be a ~~nerdy~~ convenient way to get a tarot reading vi
 
 ---
 
-## Install from PyPI (recommended)
+## Installing from PyPI
 
 Create and activate a virtual environment or a `conda` env that has Python 3.9, then run the following:
 
