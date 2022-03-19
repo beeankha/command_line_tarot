@@ -184,6 +184,16 @@ Displaying card art for:
     [ meaning ]
 ```
 
+### Output Readings to a File
+
+In order to output/save any particular readings, invoke the `-o`/`--output` flag. Certain features such as "card meaning" do not have file output as an option, but this is a useful option for longer free-draw readings and multi-card readings such as the Celtic Cross.
+
+When using the `-o` / `--output` option, there will be a new file created and saved into the current working directory. The name of the file will consist of the reading type + datetime (e.g., `Seen_Heard_Held_Interpreted_20220319-123727.txt`, `Free_Draw_Art_and_Interpretation_20220319-123929.txt`).
+
+---
+
+## Tarot Reading Spreads
+
 ### The "Seen, Heard, Held" Spread
 
 🚧 Under Construction (coming soon!) 🚧
@@ -204,17 +214,16 @@ Displaying card art for:
 🚧 Under Construction (coming soon!) 🚧
 
 
-### Output Readings to a File
+> **Note:** More spreads can be added! 🔮
+> 
+> If you'd like to see a specific spread implemented here, please file an issue!
 
-In order to output/save any particular readings, invoke the `-o`/`--output` flag. Certain features such as "card meaning" do not have file output as an option, but this is a useful option for longer free-draw readings and multi-card readings such as the Celtic Cross.
+---
 
+## Other Features
 
 ## General Reference
 
 For some general tarot information, check out [this document](REFERENCE.md).
 
 
-* * *
-### (🔮 more spreads can be added! 🔮)
-
-If you'd like to see a specific spread implemented here, please file an issue!
