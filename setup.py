@@ -11,7 +11,7 @@ long_description = (this_directory / "PYPI_DESC.md").read_text()
 
 setup(
         name ='cli-tarot',
-        version ='0.1.0',
+        version ='0.1.1',
         author ='Bianca Henderson',
         author_email ='beeankha@gmail.com',
         url ='https://github.com/beeankha/command_line_tarot',
