@@ -194,7 +194,7 @@ When using the `-o` / `--output` option, there will be a new file created and sa
 
 ## Tarot Reading Spreads
 
-### The "Seen, Heard, Held" Spread
+### Seen, Heard, Held
 
 🚧 Under Construction (coming soon!) 🚧
 
@@ -209,13 +209,13 @@ When using the `-o` / `--output` option, there will be a new file created and sa
 🚧 Under Construction (coming soon!) 🚧
 
 
-### The "Choices" Spread
+### Choices
 
 🚧 Under Construction (coming soon!) 🚧
 
 
 > **Note:** More spreads can be added! 🔮
-> 
+>
 > If you'd like to see a specific spread implemented here, please file an issue!
 
 ---
@@ -225,5 +225,3 @@ When using the `-o` / `--output` option, there will be a new file created and sa
 ## General Reference
 
 For some general tarot information, check out [this document](REFERENCE.md).
-
-
