@@ -6,7 +6,7 @@ This project is meant to be a ~~nerdy~~ convenient way to get a tarot reading vi
 
 # 🚧 This Package is Under Construction 🚧
 
-This is a beta/test version `0.1.1` of the Command Line Tarot CLI tool!
+This is a beta/test version `0.1.3` of the Command Line Tarot CLI tool!
 
 Currently missing most card interpretations. However, the ASCII art is fully accessible and complete.
 
@@ -34,7 +34,7 @@ $ cli-tarot --help
 
 To do a basic single-card reading, type in the following command:
 
-`$ python3 -m cli_tarot`
+`$ cli-tarot`
 
 Sample output from the above:
 
@@ -48,7 +48,7 @@ Sample output from the above:
 
 If you forgot to pass in the `-i` / `--interpretation` flag even though you wanted to know the meaning of the card, that's ok; that's what the `-cm` / `--card_meaning` flag is for! The number listed before the card name (in the case of the example above, `26`) is the index number for the card; pass that in after invoking the Card Meaning functionality, like the command below:
 
-`$ python3 -m cli_tarot -cm 26`
+`$ cli-tarot -cm 26`
 
 ```bash
 ...looking up meaning for:
@@ -63,7 +63,7 @@ If you forgot to pass in the `-i` / `--interpretation` flag even though you want
 
 If you'd also like to see the ASCII art for a specific card along with its meaning, add the `-a` flag like so:
 
-`$ python3 -m cli_tarot -cm 26 -a`
+`$ cli-tarot -cm 26 -a`
 
 ```
 Displaying card art for:

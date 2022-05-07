@@ -8,8 +8,11 @@ from . import ascii_art
 from . import constants
 from . import card_directory
 from . import card_meanings
+from . import output
+from . import readings
 
 from argparse import RawTextHelpFormatter
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -50,20 +53,20 @@ def main():
                         action='store_true',
                         )
 
-    group.add_argument("-fd", "--free_draw",
-                        type=int,
-                        dest="free",
-                        nargs="?",
-                        const=constants.default_count,
-                        metavar="",
-                        help="""
+    group.add_argument("-f", "--free-draw",
+                       type=int,
+                       nargs="?",
+                       dest="free",
+                       const=constants.default_count,
+                       metavar="",
+                       help="""
         'Free Draw'\n
         Read a specific number of cards
         (passed as an integer after the '-fd'
         flag; defaults to a single-card pull)
-                        """,
-                        required=False,
-                    )
+                       """,
+                       # required=False,
+                       )
 
     group.add_argument("-s", "--seen_heard_held",
                         help="""
@@ -161,21 +164,10 @@ def main():
     if args.seen:
         args.card = None
         cards = random.sample(reading, k=constants.seen)
+
         for i in range(len(cards)):
             index = int(re.search(r'\((.*?)\)', cards[i]).group(1))
-            if args.interpretation is False and args.art is True:
-                print("...generating card art...")
-                time.sleep(2)
-                print(f"\n{ascii_art.card_art[index]}\n")
-        time.sleep(1)
-        print(f"\n👁 To Be Seen 👁\n{cards[0]}")
-        time.sleep(1.5)
-        print(f"\n👂 To Be Heard 👂\n{cards[1]}")
-        time.sleep(1.5)
-        print(f"\n🫂 To Be Held 🫂\n{cards[2]}")
-        time.sleep(1.5)
-        print(f"\n💫 Action 💫\n{cards[3]}")
-        time.sleep(1)
+        readings.seen_heard_held(cards)
 
         for i in range(len(cards)):
             index = int(re.search(r'\((.*?)\)', cards[i]).group(1))
@@ -185,9 +177,14 @@ def main():
                 time.sleep(2)
                 print(f"\n{card_meanings.meanings[index]}\n")
                 if args.output is True:
-                    with open("Seen_Heard_Held_Interpreted_" + timestr + '.txt', 'a') as output_file:
-                        output_file.write(f"{card_meanings.meanings[index]}\n" + "---\n")
+                    output.output_meaning("Seen_Heard_Held_Interpreted_", index)
 
+            if args.interpretation is False and args.art is True:
+                print("...generating card art...")
+                time.sleep(2)
+                print(f"\n{ascii_art.card_art[index]}\n")
+                if args.output is True:
+                    output.output_art("Seen_Heard_Held_Art_", index)
 
             if args.interpretation is True and args.art is True:
                 print("...interpreting and generating card art...")
@@ -195,9 +192,12 @@ def main():
                 print(f"\n{ascii_art.card_art[index]}\n")
                 print(f"\n{card_meanings.meanings[index]}\n")
                 if args.output is True:
-                    with open("Seen_Heard_Held_Art_and_Meanings_" + timestr + '.txt', 'a') as output_file:
-                        output_file.write(f"{ascii_art.card_art[index]}\n" + "---\n")
-                        output_file.write(f"{card_meanings.meanings[index]}\n" + "---\n")
+                    output.output_meaning_and_art("Seen_Heard_Held_Art_and_Meanings_", index)
+
+            if args.interpretation is False and args.art is False and args.output is True:
+                reading = card_directory.card_dict[index]
+                output.output_reading_only("Seen_Heard_Held_Reading_", reading)
+
 
     # TODO: Celtic Cross Reading
 
@@ -205,9 +205,11 @@ def main():
 
     # TODO: Choices Spread
 
+    # When someone tries to look up a card but forgets to specify card index
     elif args.card == 1 and args.meaning is None:
         print("You need to specify a card ID! (choose between 0 and 77)")
 
+    # Looking up a card's meaning can only output to the terminal vs outputs to a file
     elif args.card == 1 and args.meaning < 78:
         meaning = list_index.index(args.meaning)
         card = str(card_directory.card_dict[args.meaning])
@@ -228,18 +230,15 @@ def main():
         cards = random.sample(reading, k=args.card)
         index = int(re.search(r'\((.*?)\)', cards[0]).group(1))
         args.free = None
-        time.sleep(1)
-        print(f"\n✨ Your single card drawing is: ✨")
-        time.sleep(1.5)
-        print(*cards, sep = "\n")
+        readings.single_card_reading(cards)
 
         if args.interpretation is False and args.art is True:
             time.sleep(1.5)
             print("...generating card art...")
             time.sleep(2)
             print(f"\n{ascii_art.card_art[index]}\n")
-            with open("Single_Card_Art_" + timestr + '.txt', 'a') as output_file:
-                output_file.write(f"{ascii_art.card_art[index]}\n" + "---\n")
+            if args.output is True:
+                output.output_art("Single_Card_Art_", index)
 
         if args.interpretation is True and args.art is False:
             time.sleep(1.5)
@@ -247,8 +246,7 @@ def main():
             time.sleep(2)
             print(f"\n{card_meanings.meanings[index]}\n")
             if args.output is True:
-                with open("Single_Card_Interpreted_" + timestr + '.txt', 'a') as output_file:
-                    output_file.write(f"{card_meanings.meanings[index]}\n" + "---\n")
+                output.output_meaning("Single_Card_Interpreted_", index)
 
         if args.interpretation is True and args.art is True:
             time.sleep(1.5)
@@ -256,12 +254,15 @@ def main():
             time.sleep(2)
             print(f"\n{ascii_art.card_art[index]}\n")
             print(f"\n{card_meanings.meanings[index]}\n")
-            with open("Single_Card_Art_and_Interpretation_" + timestr + '.txt', 'a') as output_file:
-                output_file.write(f"{ascii_art.card_art[index]}\n" + "---\n")
-                output_file.write(f"{card_meanings.meanings[index]}\n" + "---\n")
+            if args.output is True:
+                output.output_meaning("Single_Card_Art_and_Interpretation_", index)
 
-    # For "Free Draw" readings, arbitrary number of cards
-    elif args.free > 1:
+        if args.interpretation is False and args.art is False:
+            if args.output is True:
+                output.output_reading_only("Single_Card_Reading_", card_directory.card_dict[index])
+
+    # For "Free Draw" readings, which involves any number of cards between 1 and 78
+    elif args.free in range(1, 79):
         cards = random.sample(reading, k=args.free)
         print(f"\n✨ You have pulled the following {args.free} cards: ✨\n")
         time.sleep(1.5)
@@ -275,8 +276,7 @@ def main():
                 time.sleep(2)
                 print(f"\n{card_meanings.meanings[index]}\n")
                 if args.output is True:
-                    with open("Free_Draw_Interpreted_" + timestr + '.txt', 'a') as output_file:
-                        output_file.write(f"{card_meanings.meanings[index]}\n" + "---\n")
+                    output.output_meaning(f"{args.free}_Card_Draw_Interpreted_", index)
 
             if args.interpretation is True and args.art is True:
                 print("...interpreting and generating card art...")
@@ -284,14 +284,21 @@ def main():
                 print(f"\n{ascii_art.card_art[index]}\n")
                 print(f"\n{card_meanings.meanings[index]}\n")
                 if args.output is True:
-                    with open("Free_Draw_Art_and_Interpretation_" + timestr + '.txt', 'a') as output_file:
-                        output_file.write(f"{ascii_art.card_art[index]}\n" + "---\n")
-                        output_file.write(f"{card_meanings.meanings[index]}\n" + "---\n")
+                    output.output_meaning_and_art(f"{args.free}_Card_Draw_Art_and_Interpretation_", index)
 
             if args.interpretation is False and args.art is True:
                 print("...generating card art...")
                 time.sleep(2)
                 print(f"\n{ascii_art.card_art[index]}\n")
                 if args.output is True:
-                    with open("Free_Draw_Art_Only_" + timestr + '.txt', 'a') as output_file:
-                        output_file.write(f"{ascii_art.card_art[index]}\n" + "---\n")
+                    output.output_art(f"{args.free}_Card_Draw_Art_Only_", index)
+
+            if args.interpretation is False and args.art is False and args.output is True:
+                reading = card_directory.card_dict[index]
+                output.output_reading_only(f"{args.free}_Card_Reading_", reading)
+
+    elif args.free not in range(1, 79):
+        print("""
+            You can't select a number of cards smaller than zero or
+            larger than the deck! (min: 1, max: 78)
+        """)
