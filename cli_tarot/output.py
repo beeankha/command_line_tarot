@@ -1,8 +1,8 @@
 import time
 
-import ascii_art
-import card_meanings
-import readings
+from . import ascii_art
+from . import card_meanings
+from . import readings
 
 
 timestr = time.strftime("%Y%m%d-%H%M%S")

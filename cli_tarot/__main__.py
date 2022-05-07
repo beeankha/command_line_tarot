@@ -4,12 +4,12 @@ import re
 import sys
 import time
 
-import ascii_art
-import constants
-import card_directory
-import card_meanings
-import output
-import readings
+from . import ascii_art
+from . import constants
+from . import card_directory
+from . import card_meanings
+from . import output
+from . import readings
 
 from argparse import RawTextHelpFormatter
 
