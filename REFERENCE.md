@@ -6,12 +6,15 @@ On this page, you'll be able to find some general information related to tarot i
 
 ### Major Arcana
 
+[coming soon!]
 
 ### Minor Arcana
 
+[coming soon!]
 
 #### Meanings of Numbers in the Minor Arcana
 
+[coming soon!]
 
 ### Reversed Cards
 
