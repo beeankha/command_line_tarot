@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "cli-tarot"
-version = "1.0.3"
+version = "1.0.4"
 description = "A convenient way to get a tarot reading on your terminal!"
 readme = "cli_tarot/README.md"
 content-type = "text/markdown"
@@ -13,3 +13,6 @@ author = "Bianca Henderson"
 author_email = "beeankha@gmail.com"
 url = "https://github.com/beeankha/command_line_tarot"
 keywords = ["tarot", "command line", "cli"]
+
+[project.scripts]
+cli-tarot = "cli_tarot.__main__:main"

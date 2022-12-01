@@ -1,6 +1,6 @@
 # Command Line Tarot
 
-This is version `1.0.3` of the Command Line Tarot CLI tool.
+This is version `1.0.4` of the Command Line Tarot CLI tool.
 
 This project is meant to be a ~~nerdy~~ convenient way to get a tarot reading via the command line interface!
 
