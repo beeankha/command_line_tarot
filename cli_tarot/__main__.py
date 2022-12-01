@@ -49,7 +49,10 @@ def main():
 
     parser.add_argument("-o", "--output",
                         default=False,
-                        help="Directs the output to a text file stamped with current datetime.",
+                        help="""
+        Directs the output to a text file stamped with reading type
+        and current datetime.
+                        """,
                         action='store_true',
                         )
 
@@ -62,7 +65,7 @@ def main():
                        help="""
         'Free Draw'\n
         Read a specific number of cards
-        (passed as an integer after the '-fd'
+        (passed as an integer after the '-f'
         flag; defaults to a single-card pull)
                        """,
                        # required=False,
@@ -83,25 +86,25 @@ def main():
                         required=False,
                         )
 
-    group.add_argument("-cc", "--celtic_cross",
-                        help="""
-        'Celtic Cross'\n
-        A 10-card spread which reveals:
-        Card 1 - The present condition of the querent
-        Card 2 - Immediate influence / obstacles
-        Card 3 - Goal / destiny according to existing circumstances
-        Card 4 - Distant past foundation
-        Card 5 - Recent past events
-        Card 6 - Future influence
-        Card 7 - The questioner
-        Card 8 - Environmental factors
-        Card 9 - Inner emotions
-        Card 10 - Final results\n
-                        """,
-                        dest="celtic",
-                        action="store_true",
-                        required=False,
-                        )
+    # group.add_argument("-cc", "--celtic_cross",
+    #                     help="""
+    #     'Celtic Cross'\n
+    #     A 10-card spread which reveals:
+    #     Card 1 - The present condition of the querent
+    #     Card 2 - Immediate influence / obstacles
+    #     Card 3 - Goal / destiny according to existing circumstances
+    #     Card 4 - Distant past foundation
+    #     Card 5 - Recent past events
+    #     Card 6 - Future influence
+    #     Card 7 - The questioner
+    #     Card 8 - Environmental factors
+    #     Card 9 - Inner emotions
+    #     Card 10 - Final results\n
+    #                     """,
+    #                     dest="celtic",
+    #                     action="store_true",
+    #                     required=False,
+    #                     )
 
     group.add_argument("-ppf", "--past_present_future",
                         help="""
@@ -117,19 +120,19 @@ def main():
                         required=False,
                         )
 
-    group.add_argument("-ch", "--choices",
-                        help="""
-        'Choices'\n
-        A 3-card spread which reveals:
-        Card 1 - Choice 1
-        Card 2 - Choice 2
-        Card 3 - Advice\n
-        Optional: Pull a single card afterwards as a clarifier
-                        """,
-                        dest="choices",
-                        action="store_true",
-                        required=False,
-                        )
+    # group.add_argument("-ch", "--choices",
+    #                     help="""
+    #     'Choices'\n
+    #     A 3-card spread which reveals:
+    #     Card 1 - Choice 1
+    #     Card 2 - Choice 2
+    #     Card 3 - Advice\n
+    #     Optional: Pull a single card afterwards as a clarifier
+    #                     """,
+    #                     dest="choices",
+    #                     action="store_true",
+    #                     required=False,
+    #                     )
 
     group.add_argument("-cm", "--card_meaning",
                         type=int,
@@ -199,11 +202,47 @@ def main():
                 output.output_reading_only("Seen_Heard_Held_Reading_", reading)
 
 
-    # TODO: Celtic Cross Reading
+    # For "Celtic Cross" readings
 
-    # TODO: Past, Present, Future Spread
+    # For "Past, Present, Future Spread" readings
+    if args.ppf:
+        args.card = None
+        cards = random.sample(reading, k=constants.ppf)
 
-    # TODO: Choices Spread
+        for i in range(len(cards)):
+            index = int(re.search(r'\((.*?)\)', cards[i]).group(1))
+        readings.past_present_future(cards)
+
+        for i in range(len(cards)):
+            index = int(re.search(r'\((.*?)\)', cards[i]).group(1))
+
+            if args.interpretation is True and args.art is False:
+                print("...interpreting...")
+                time.sleep(2)
+                print(f"\n{card_meanings.meanings[index]}\n")
+                if args.output is True:
+                    output.output_meaning("Past_Present_Future_Interpreted_", index)
+
+            if args.interpretation is False and args.art is True:
+                print("...generating card art...")
+                time.sleep(2)
+                print(f"\n{ascii_art.card_art[index]}\n")
+                if args.output is True:
+                    output.output_art("Past_Present_Future_Art_", index)
+
+            if args.interpretation is True and args.art is True:
+                print("...interpreting and generating card art...")
+                time.sleep(2)
+                print(f"\n{ascii_art.card_art[index]}\n")
+                print(f"\n{card_meanings.meanings[index]}\n")
+                if args.output is True:
+                    output.output_meaning_and_art("Past_Present_Future_Art_and_Meanings_", index)
+
+            if args.interpretation is False and args.art is False and args.output is True:
+                reading = card_directory.card_dict[index]
+                output.output_reading_only("Past_Present_Future_Reading_", reading)
+
+    # For "Choices" readings
 
     # When someone tries to look up a card but forgets to specify card index
     elif args.card == 1 and args.meaning is None:

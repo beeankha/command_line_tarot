@@ -1,16 +1,13 @@
 # Command Line Tarot
 
+This is version `1.0.3` of the Command Line Tarot CLI tool.
+
 This project is meant to be a ~~nerdy~~ convenient way to get a tarot reading via the command line interface!
-
----
-
-# 🚧 This Package is Under Construction 🚧
-
-This is a beta/test version `0.1.3` of the Command Line Tarot CLI tool!
 
 Currently missing most card interpretations. However, the ASCII art is fully accessible and complete.
 
 ---
+
 
 ## Instructions for Installing from PyPI
 
