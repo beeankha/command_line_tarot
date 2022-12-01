@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cli-tarot"
+version = "1.0"
+description = "A convenient way to get a tarot reading on your terminal!"
+requires-python = ">=3.9"
+authors = [
+    {name = "Bianca Henderson", email="beeankha@gmail.com"},
+]
+readme = "README.md"
+license = {file = "LICENSE.md"}
+
+[tools.setuptools]
+py_modules=["cli_tarot"]
+
+[project.scripts]
+cli-tarot = "cli_tarot.__main__:main"
