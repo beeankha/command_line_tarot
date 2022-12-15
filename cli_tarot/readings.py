@@ -24,7 +24,7 @@ def past_present_future(card_list):
     time.sleep(1)
     print(f"\nPast\n{card_list[0]}")
     time.sleep(1.5)
-    print(f"\nPresemt\n{card_list[1]}")
+    print(f"\nPresent\n{card_list[1]}")
     time.sleep(1.5)
     print(f"\nFuture\n{card_list[2]}")
     time.sleep(1)

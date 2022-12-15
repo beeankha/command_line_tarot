@@ -301,6 +301,11 @@ def main():
                 output.output_reading_only("Single_Card_Reading_", card_directory.card_dict[index])
 
     # For "Free Draw" readings, which involves any number of cards between 1 and 78
+    if args.free is not None and args.free not in range(1, 79):
+        print("""
+            You can't select a number of cards smaller than zero or
+            larger than the deck! (min: 1, max: 78)
+        """)
     elif args.free in range(1, 79):
         cards = random.sample(reading, k=args.free)
         print(f"\n✨ You have pulled the following {args.free} cards: ✨\n")
@@ -336,8 +341,3 @@ def main():
                 reading = card_directory.card_dict[index]
                 output.output_reading_only(f"{args.free}_Card_Reading_", reading)
 
-    elif args.free not in range(1, 79):
-        print("""
-            You can't select a number of cards smaller than zero or
-            larger than the deck! (min: 1, max: 78)
-        """)
