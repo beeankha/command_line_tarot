@@ -1,5 +1,5 @@
 {
-  "name": "command_line_tarot",
+  "name": "cli_tarot",
   "version": "1.0.0",
   "description": "A command line tarot reader",
   "main": "cli_tarot.__main__:main",
