@@ -1,6 +1,6 @@
 # This action is not really utilized, but I'm keeping it here for posterity
 
-name: Release  # Workflow name displayed on GitHub 
+name: Release (this is an outdated GH action)  # Workflow name displayed on GitHub 
 
 on: 
   workflow_dispatch:  # Trigger manually 
