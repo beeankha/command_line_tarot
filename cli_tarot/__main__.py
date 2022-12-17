@@ -3,6 +3,7 @@ import random
 import re
 import sys
 import time
+from importlib.metadata import version
 
 from . import ascii_art
 from . import constants
@@ -22,6 +23,9 @@ def main():
         epilog="Happy tarot-ing! 😄"
         )
     group = parser.add_mutually_exclusive_group()
+
+    parser.add_argument("-v", "--version", action="store_true")
+
 
     parser.add_argument("card",
                         nargs="?",
@@ -152,6 +156,10 @@ def main():
                         )
 
     args = parser.parse_args()
+
+    if args.version:
+        print(version("cli-tarot"))
+        sys.exit()
 
 
     reading = list(card_directory.card_dict.values())
