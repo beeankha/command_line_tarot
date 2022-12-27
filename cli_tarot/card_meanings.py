@@ -1,7 +1,19 @@
 meanings = {0: """
-    How to interpret The Fool card:
+    Do you have a new relationship or journey coming up in your life? If you are about to start
+    a new business venture, job, travel, or relationship, this card indicates a green light
+    to go forward and trust that the lessons that come up will be helpful for your path ahead.
+    You may or may not know what you're doing, but there's definitely at least a willingness
+    to put it all out there, take risks, and try something new.
 
-    [ meaning ]
+    When the Fool card comes up, it is important to embrace adventure while also knowing your
+    limits. There is a lot of potential here and many ways to reach your destination. This card
+    might also indicate a feeling of feeling out of sync with the world (i.e., "marching to the
+    beat of a different drummer"), but in a positive way. It might be good to think about how to
+    achieve your goals in non-conventional ways.
+
+    Have confidence. You may not know exactly what you're getting into, OR you do, but you have
+    no fear of the dangers involved; either way, sometimes the only way forward is to take a
+    leap of faith!
     """,
      1: """
     The Magician represents strength of will, intuition, self-control, self-confidence,
