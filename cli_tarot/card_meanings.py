@@ -79,11 +79,19 @@ meanings = {
     enjoy structure or responsibility, focusing on those things will lead to better outcomes. The Emperor
     is showing up to teach you that anything worth having must also be worth fighting for.
     """,
-     5: """
-    How to interpret The Hierophant card:
 
-    [ meaning ]
+     5: """
+    The Hierophant represent any institution that contains authority figures who claim to know what is best
+    for a group of people (e.g., philosphical or religious institutions, universities, etc.); your current
+    challenge is to decide whether or not to follow these established schools of thought and structure or
+    if you would prefer to go your own way. Whatever you decide will have long-lasting consequences.
+
+    In simplest terms, this card represents conformity vs "going against the grain". Would you prefer to go
+    along with tradition and structure, or do you prefer to break the mold? Since this card has come up in
+    a reading for you, it might be best to consider what the benefits would be of following an established path;
+    many times, the rules and expectations are in place for a good reason.
      """,
+
      6: """
     How to interpret The Lovers card:
 
