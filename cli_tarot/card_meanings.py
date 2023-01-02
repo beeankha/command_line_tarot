@@ -137,9 +137,15 @@ meanings = {
      """,
 
      10: """
-    How to interpret Wheel of Fortune card:
+    The Wheel of Fortune represents chance and events over which you have no control. The wheel of fate keeps
+    turning for everyone, whether or not we are aware of it. You might be feeling like you need to fight in
+    order to gain success if there have been an endless stream of chance events occurring which keep affecting
+    your goals.
 
-    [ meaning ]
+    Expect the unexpected, but know that no matter what happens, your destiny is leading you to a better place.
+    This is particularly true if you are starting a new phase in life; all you can do is attune yourself to the
+    forces operating in the world. No matter what, trust that change is necessary in life, and that your life path
+    is leading you to a better destiny even if things seem random and chaotic in the moment.
      """,
 
      11: """
