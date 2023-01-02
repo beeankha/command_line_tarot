@@ -120,14 +120,20 @@ meanings = {
     is a gentle, calming confidence that can overcome any opposition.
 
     This card is also about doing the right thing, even if it seems difficult. Perhaps there are "inner demons" or
-    a feeling of scatteredness that needs to be tamed? Tap into the energy of the Strength card and know that you
-    can work with, vs against, any problems that you have.
+    a feeling of scatteredness that needs to be tamed? Tap into the energy of self-confidence and inner strength
+    indicated by this card and know that you can work with, vs against, any problems that you are facing.
+
+    Victory is won by right, not by might.
      """,
 
      9: """
-    How to interpret The Hermit card:
+    When The Hermit comes up, it's an indication that you might need some time alone in order to think and be
+    introspective. Intentionally set aside some time to be away from others in order to gain perspective on your
+    life and open up to the inner guidance that is available to you.
 
-    [ meaning ]
+    There might also be a new spiritual guide or teacher that has come into your life, or you may be fulfilling
+    that role for someone you know. Either way, this card represents the search for truth and self-development
+    that is free from the distractions and demands of society and day-to-day life.
      """,
 
      10: """
