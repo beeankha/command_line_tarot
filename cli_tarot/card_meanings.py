@@ -105,25 +105,37 @@ meanings = {
      """,
 
      7: """
-    How to interpret The Chariot card:
+    The Chariot represents movement, victory, and the mastery of opposing forces by confident decision-making
+    and strength of will. It is absolutely imperitive for you to not feel internally fractured, for you need
+    everything in your inner world to be unified in order to achieve victory over whatever problems you are
+    currently facing.
 
-    [ meaning ]
+    Whatever your challenges are, stay true to yourself and you will be able to overcome them. Make sure to keep
+    up with any changes that are happening around you in your life, and accept help when offered.
      """,
+
      8: """
-    How to interpret Strength card:
+    Strength indicates the confidence that arises when we take responsibility for our own issues and take matters
+    into our own capable hands. There is a theme of control with this card, but without any need for force. It
+    is a gentle, calming confidence that can overcome any opposition.
 
-    [ meaning ]
+    This card is also about doing the right thing, even if it seems difficult. Perhaps there are "inner demons" or
+    a feeling of scatteredness that needs to be tamed? Tap into the energy of the Strength card and know that you
+    can work with, vs against, any problems that you have.
      """,
+
      9: """
     How to interpret The Hermit card:
 
     [ meaning ]
      """,
+
      10: """
     How to interpret Wheel of Fortune card:
 
     [ meaning ]
      """,
+
      11: """
     How to interpret Justice card:
 
