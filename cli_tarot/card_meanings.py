@@ -1,4 +1,5 @@
-meanings = {0: """
+meanings = {
+     0: """
     Do you have a new relationship or journey coming up in your life? If you are about to start
     a new business venture, job, travel, or relationship, this card indicates a green light
     to go forward and trust that the lessons that come up will be helpful for your path ahead.
@@ -15,6 +16,7 @@ meanings = {0: """
     no fear of the dangers involved; either way, sometimes the only way forward is to take a
     leap of faith!
     """,
+
      1: """
     The Magician represents strength of will, intuition, self-control, self-confidence,
     autonomy, and diplomacy. The positive qualities of humankind: skill, initiative,
@@ -34,20 +36,48 @@ meanings = {0: """
     The power is yours. It's up to you to stand in that power.
 
     """,
+
      2: """
-    How to interpret The High Priestess card:
+    The High Priestess symbolizes intuition and inner power. Don't chase the answers; let them
+    come to you. Trust your gut and don't force anything to happen. If there is an important
+    decision you're trying to make, hold off on trying to make a decision through logic and data.
 
-    [ meaning ]
+    Even in the "in between" phase of not coming to any definitive decisions, trust that inner
+    changes are taking place within you, even if they haven't materialized yet. Something hidden is
+    about to come forth.
+
+    Avoid overextending yourself with other people's emotional and spiritual journeys. Save energy
+    and time for yourself while you figure out which path of self improvement you are traveling on.
     """,
+
      3: """
-    How to interpret The Empress card:
+    The Empress represents the archetype of The Mother, who can teach and maintain domestic harmony,
+    personal fulfillment, as well as comfort and security. This card can indicate upcoming events or
+    decisions related to marriage, birth, or fertility, either in the literal sense (a new pregnancy)
+    or metaphorically (creative motivation, a new business partnership).
 
-    [ meaning ]
+    There may be some themes in your life related to abundance, nurturing, and caring of all kinds,
+    for yourself as well as for others. If you identify as a man, it might be an sign to try to get
+    in touch with any feminine components within yourself.
+
+    When this card comes up, it's beneficial to ask yourself questions such as:
+
+    * How do you show love and caring?
+    * Where and how do you express your creativity?
+    * What nurtures you?
+    * Is there a particular aspect of your life that might need more support and caretaking?
      """,
-     4: """
-    How to interpret The Emperor card:
 
-    [ meaning ]
+     4: """
+    Is there a need for more structure, order, and control in your life? The Emperor represents these
+    concepts and is in direct opposition to "light" themes such as spontaneity and frivolity. Even if you
+    would prefer to keep going with the flow, it might be more beneficial for you to get organized in
+    order to gain a stronger sense of stability in your life.
+
+    Despite being a card related to authority, the Emperor is not a tyrant who forces you to follow the
+    rules; he is more like a father figure who wants what's best for you, and even though you may not
+    enjoy structure or responsibility, focusing on those things will lead to better outcomes. The Emperor
+    is showing up to teach you that anything worth having must also be worth fighting for.
     """,
      5: """
     How to interpret The Hierophant card:
