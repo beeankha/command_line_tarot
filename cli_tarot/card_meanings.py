@@ -8,13 +8,14 @@ meanings = {
 
     When the Fool card comes up, it is important to embrace adventure while also knowing your
     limits. There is a lot of potential here and many ways to reach your destination. This card
-    might also indicate a feeling of feeling out of sync with the world (i.e., "marching to the
+    might also indicate a feeling of being out of sync with the world (i.e., "marching to the
     beat of a different drummer"), but in a positive way. It might be good to think about how to
     achieve your goals in non-conventional ways.
 
     Have confidence. You may not know exactly what you're getting into, OR you do, but you have
     no fear of the dangers involved; either way, sometimes the only way forward is to take a
     leap of faith!
+
     """,
 
      1: """
@@ -28,7 +29,7 @@ meanings = {
     This card also means skill, talent, and having all the tools you need to make incredible
     things happen.
 
-    In effect, the Magician is one who has the potential to be like a god. If this card
+    In effect, the Magician is one who has the potential to be very powerful. If this card
     represents the querent, then you are the one who has the power (or the potential for it)
     to control your immediate world. Are you developing this potential or throwing it away on
     demonstrations of mundanity? The rest of the cards in the reading can illuminate this.
@@ -39,8 +40,9 @@ meanings = {
 
      2: """
     The High Priestess symbolizes intuition and inner power. Don't chase the answers; let them
-    come to you. Trust your gut and don't force anything to happen. If there is an important
-    decision you're trying to make, hold off on trying to make a decision through logic and data.
+    come to you. Listen to your gut and don't force anything to happen. If there is an important
+    decision you're trying to make, hold off on trying to make a decision through logic and cold
+    hard data.
 
     Even in the "in between" phase of not coming to any definitive decisions, trust that inner
     changes are taking place within you, even if they haven't materialized yet. Something hidden is
@@ -48,17 +50,18 @@ meanings = {
 
     Avoid overextending yourself with other people's emotional and spiritual journeys. Save energy
     and time for yourself while you figure out which path of self improvement you are traveling on.
+
     """,
 
      3: """
     The Empress represents the archetype of The Mother, who can teach and maintain domestic harmony,
-    personal fulfillment, as well as comfort and security. This card can indicate upcoming events or
+    personal fulfillment, as well as comfort and security. This card may indicate upcoming events or
     decisions related to marriage, birth, or fertility, either in the literal sense (a new pregnancy)
     or metaphorically (creative motivation, a new business partnership).
 
     There may be some themes in your life related to abundance, nurturing, and caring of all kinds,
-    for yourself as well as for others. If you identify as a man, it might be an sign to try to get
-    in touch with any feminine components within yourself.
+    for yourself as well as for others. If you identify as a man, the Empress might be telling you
+    to get in touch with any feminine components within yourself.
 
     When this card comes up, it's beneficial to ask yourself questions such as:
 
@@ -66,6 +69,7 @@ meanings = {
     * Where and how do you express your creativity?
     * What nurtures you?
     * Is there a particular aspect of your life that might need more support and caretaking?
+
      """,
 
      4: """
@@ -77,24 +81,28 @@ meanings = {
     Despite being a card related to authority, the Emperor is not a tyrant who forces you to follow the
     rules; he is more like a father figure who wants what's best for you, and even though you may not
     enjoy structure or responsibility, focusing on those things will lead to better outcomes. The Emperor
-    is showing up to teach you that anything worth having must also be worth fighting for.
+    is showing up to teach you that anything worth having must also be worth fighting and working for.
+
     """,
 
      5: """
-    The Hierophant represent any institution that contains authority figures who claim to know what is best
-    for a group of people (e.g., philosphical or religious institutions, universities, etc.); your current
+    The Hierophant represent any institution that is run by authority figures who claim to know what is best
+    for a group of people (e.g., philosphical or religious institutions, academia, etc.); your current
     challenge is to decide whether or not to follow these established schools of thought and structure or
-    if you would prefer to go your own way. Whatever you decide will have long-lasting consequences.
+    if you would prefer to go your own way. Whatever you decide will have long-lasting consequences in
+    your life.
 
     In simplest terms, this card represents conformity vs "going against the grain". Would you prefer to go
     along with tradition and structure, or do you prefer to break the mold? Since this card has come up in
     a reading for you, it might be best to consider what the benefits would be of following an established path;
     many times, the rules and expectations are in place for a good reason.
+
      """,
 
      6: """
     Is there a temptation or big choice dominating your life lately? If you're faced with the task of making
-    a big decision, trust your higher guidance and lean into the choice that feels most like "love".
+    a big decision, the Lovers card is telling you to trust your higher guidance and lean into the choice that
+    feels most like "love".
 
     This card can also represent cooperation and working together with others in order to accomplish a mutual
     goal. There needs to be a solid sense of commitment from all parties involved in order to achieve the task
@@ -102,16 +110,17 @@ meanings = {
 
     There may also be a need for you to unite disparate parts of yourself. Whatever it may be, as long as you
     make the choice that feels right in your heart (vs your mind), the outcome will lead to harmony.
+
      """,
 
      7: """
-    The Chariot represents movement, victory, and the mastery of opposing forces by confident decision-making
-    and strength of will. It is absolutely imperitive for you to not feel internally fractured, for you need
-    everything in your inner world to be unified in order to achieve victory over whatever problems you are
-    currently facing.
+    The Chariot represents movement, victory, and the mastery of opposing forces by decision-making and strength
+    of will. It is absolutely imperative for you to not feel internally fractured, for you need everything in
+    your inner world to be unified in order to achieve victory over any problems you are currently facing.
 
     Whatever your challenges are, stay true to yourself and you will be able to overcome them. Make sure to keep
     up with any changes that are happening around you in your life, and accept help when offered.
+
      """,
 
      8: """
@@ -134,6 +143,7 @@ meanings = {
     There might also be a new spiritual guide or teacher that has come into your life, or you may be fulfilling
     that role for someone you know. Either way, this card represents the search for truth and self-development
     that is free from the distractions and demands of society and day-to-day life.
+
      """,
 
      10: """
