@@ -93,10 +93,17 @@ meanings = {
      """,
 
      6: """
-    How to interpret The Lovers card:
+    Is there a temptation or big choice dominating your life lately? If you're faced with the task of making
+    a big decision, trust your higher guidance and lean into the choice that feels most like "love".
 
-    [ meaning ]
+    This card can also represent cooperation and working together with others in order to accomplish a mutual
+    goal. There needs to be a solid sense of commitment from all parties involved in order to achieve the task
+    at hand. Pool your resources together!
+
+    There may also be a need for you to unite disparate parts of yourself. Whatever it may be, as long as you
+    make the choice that feels right in your heart (vs your mind), the outcome will lead to harmony.
      """,
+
      7: """
     How to interpret The Chariot card:
 
