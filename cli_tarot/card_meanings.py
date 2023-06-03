@@ -161,12 +161,35 @@ meanings = {
      11: """
      How to interpret Justice card:
 
-     [ meaning ]
+     The Justice card in the Tarot deck represents fairness, balance, and truth. It signifies the need for
+     impartial judgment, integrity, and accountability in your life. This card reminds you to make decisions
+     based on objective assessment and to consider the consequences of your actions. It also encourages you
+     to seek justice, uphold your commitments, and find a harmonious balance in your relationships.
+
+     Justice highlights the importance of ethical behavior and making choices that align with your values. Overall,
+     it emphasizes the need for fairness, honesty, and the pursuit of truth in your life.
+
      """,
      12: """
      How to interpret The Hanged Man:
 
-     [ meaning ]
+     The Hanged Man represents a shift in perspective, and embracing a different way of seeing things. It
+     urges you to pause, let go of control, and trust in the process of life. This card invites you to
+     release attachments, surrender to the present moment, and open yourself to new insights and understanding.
+     It signifies a period of suspension and inner transformation, where you can find wisdom and personal
+     growth through surrendering to the unknown.
+
+     This card can also be a warning against too much self-sacrifice or martyrdom. It reminds you to
+     consider whether you are giving up too much of yourself in order to please others or to avoid
+     conflict. It encourages you to find a balance between selflessness and self-care, and to make
+     decisions that are in alignment with your values and highest good.
+
+     Overall, the Hanged Man symbolizes a powerful journey of surrender, reflection, and spiritual growth. It
+     urges you to let go of attachments, shift your perspective, and trust in the process of life. By embracing
+     the unknown and surrendering to the flow, you can discover new insights, gain wisdom, and experience profound
+     transformation. The Hanged Man invites you to embrace the stillness within and find enlightenment in the
+     suspended state of surrender.
+
      """,
      13: """
      How to interpret the Death card:
