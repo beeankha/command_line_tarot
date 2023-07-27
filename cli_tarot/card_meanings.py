@@ -410,25 +410,82 @@ meanings = {
 
      [ meaning ]
      """,
+
+     # Page of Wands
      32: """
-     How to interpret the Page of Wands:
+     The Page of Wands represents a young person who is energetic, passionate, and
+     adventurous. This card suggests that you are in a phase of exploration and
+     discovery, where you are learning to trust your intuition and express your
+     creativity freely.
 
-     [ meaning ]
+     When the Page of Wands appears in a Tarot reading, it suggests a time of
+     inspiration and new opportunities. This card indicates that you may be
+     entering a phase of heightened creativity and self-expression. It encourages
+     you to embrace your inner childlike curiosity and to be open to new
+     possibilities.
+
+     At times, the Page of Wands can indicate the need to balance creativity with
+     practicality. It advises against being overly idealistic or swept away by
+     fantasies. Instead, it encourages you to use your creative energy to make
+     grounded and authentic decisions.
+
      """,
+
+     # Knight of Wands
      33: """
-     How to interpret the Knight of Wands:
+     The Knight of Wands represents passion, energy, and action. This card often
+     signifies a period of dynamic and enthusiastic energy in your life. You might
+     currently feel yourself filled with creative inspiration, motivation, and a
+     desire to take on new challenges. The Knight of Wands encourages you to act on your
+     impulses and follow your passions with courage and determination.
 
-     [ meaning ]
+     The Knight of Wands can also represent a person or energy in your life who embodies
+     these qualities. This individual may be adventurous, confident, and eager to explore
+     new opportunities. They are not afraid to take risks and may inspire you to step out
+     of your comfort zone and embrace new experiences. If this resonates with you, then
+     this is a call to pay attention to that particular person in your life.
+
+     Overall, the Knight of Wands is a card of action, courage, and creativity. It
+     encourages you to harness your passion, take bold steps towards your objectives, and
+     embrace the spirit of adventure. The presence of the Knight of Wands reminds you to
+     be fearless in pursuing your dreams and to maintain enthusiasm and determination in
+     your endeavors.
+
      """,
+
+     # King of Wands
      34: """
-     How to interpret the King of Wands:
+     The King of Wands embodies the qualities of a confident and inspiring leader,
+     someone who knows how to take charge and motivate others. When he appears in a
+     reading, it suggests that you are stepping into a position of power and influence.
+     This card indicates that you have the ability to lead with charisma and passion, and
+     others naturally gravitate towards your energy and ideas. The King of Wands
+     encourages you to trust your instincts and take bold actions to achieve your goals.
 
-     [ meaning ]
+     The King of Wands can sometimes indicate a tendency towards being overly controlling
+     or domineering. It advises you to be mindful of not letting your confidence turn
+     into arrogance or becoming too forceful in your approach.
+
+     No matter what, embrace your inner strength; you have the potential to make a
+     significant impact and inspire others with your vision and enthusiasm.
+
      """,
-     35: """
-     How to interpret the Queen of Wands:
 
-     [ meaning ]
+     # Queen of Wands
+     35: """
+     The Queen of Wands indicates that you or someone around you possesses a magnetic
+     and inspiring personality. This individual is often full of enthusiasm, warmth,
+     and charm, making them a natural leader and motivator. They have a strong sense
+     of self-assurance and are not afraid to take charge and assert their ideas.
+
+     When the Queen of Wands appears in a Tarot reading, it suggests that you may embody
+     or encounter someone who is confident, passionate, and independent. In a broader
+     sense, the Queen of Wands can also represent the need to be confident and assertive
+     in your interactions with others.
+
+     If you take away one thing from this card let it be this: the Queen of Wands doesn't
+     care what anyone thinks, and neither should you. Go your own way, create your own path.
+
      """,
      36: """
      How to interpret the Ace of Cups:
