@@ -480,25 +480,83 @@ meanings = {
 
      [ meaning ]
      """,
+
+     # Page of Cups
      46: """
-     How to interpret the Page of Cups:
+     The Page of Cups represents a young person who is sensitive, creative, and intuitive.
+     This card suggests that you are in a phase of exploration and discovery, where you
+     are learning to trust your intuition and express your emotions freely.
 
-     [ meaning ]
+     When the Page of Cups appears in a Tarot reading, it suggests a time of emotional
+     exploration and new experiences. This card indicates that you may be entering a
+     phase of heightened sensitivity and receptivity to your feelings and the emotions
+     of others. It encourages you to embrace your inner childlike curiosity and to be
+     open to new opportunities for emotional growth and self-discovery.
+
+     At times, the Page of Cups can indicate the need to balance emotional expression
+     with practicality. It advises against being overly idealistic or swept away by
+     fantasies. Instead, it encourages you to use your emotional insights to make grounded
+     and authentic decisions.
+
      """,
+
+     # Knight of Cups
      47: """
-     How to interpret the Knight of Cups:
+     The Knight of Cups may represent someone who is a dreamer and a true romantic. This
+     person may be emotionally expressive, wearing their heart on their sleeve, and
+     willing to go to great lengths to express their feelings and affections. The Knight
+     of Cups is also associated with artistic and poetic qualities, suggesting that this
+     person may be inclined towards creative endeavors and may have a strong appreciation
+     for beauty and aesthetics.
 
-     [ meaning ]
+     Alternatively, the Knight of Cups can represent the qualities within yourself that
+     mirror this energy. It may indicate a time when you are feeling inspired, emotionally
+     connected, or are experiencing a surge of creative energy. This card encourages you
+     to embrace your emotional and imaginative side and to follow your heart in matters of
+     love, creativity, and personal expression.
+
+     On the negative side, the Knight of Cups can sometimes represent a tendency towards
+     emotional impulsiveness or idealism. It may suggest the need to temper emotions with
+     practicality and to be mindful of being overly carried away by feelings or fantasies.
+     It also advises you to take time to reflect on your emotional responses and ensure
+     that they align with your long-term goals and values.
+
      """,
+
+     # King of Cups
      48: """
-     How to interpret the King of Cups:
+     The King of Cups represents emotional maturity, compassion, and mastery over his
+     emotions. He is a wise and nurturing figure, who embodies the qualities of a loving
+     and supportive leader.
 
-     [ meaning ]
+     When the King of Cups appears in a reading, it suggests that you may embody or
+     encounter someone who is emotionally mature, compassionate, and understanding (or
+     alternatively, you need to emobdy this energy yourself). This person may be a mentor
+     or a father figure, who is able to provide guidance and support in times of need.
+
+     The King of Cups can also represent the need to be emotionally mature and compassionate
+     in your interactions with others. It encourages you to be a source of support and
+     guidance for those around you, and to lead with kindness and understanding.
+
      """,
-     49: """
-     How to interpret the Queen of Cups:
 
-     [ meaning ]
+     # Queen of Cups
+     49: """
+     The Queen of Cups often symbolizes a person, typically a woman, who is in tune with
+     her emotions and possesses a strong sense of intuition. She is caring and supportive,
+     always willing to lend a listening ear and provide comfort to those in need. This
+     person may be highly empathetic and able to connect with others on a profound
+     emotional level.
+
+     Getting this card in a reading suggests that you may embody or encounter someone who
+     is deeply empathetic, understanding, and emotionally sensitive. In a broader sense,
+     the Queen of Cups can also represent the need to be receptive to your emotions and
+     the emotions of others. It encourages you to create a safe and supportive environment
+     for emotional expression and to be compassionate in your interactions.
+
+     The advice this card gives is for you to focus on your emotional depth, empathy, and
+     nurturing energy.
+
      """,
      50: """
      How to interpret the Ace of Swords:
