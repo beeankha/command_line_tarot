@@ -550,25 +550,69 @@ meanings = {
 
      [ meaning ]
      """,
+
+     # Page of Swords
      60: """
-     How to interpret the Page of Swords:
+     With the Page of Swords, intellectual pursuits and exploration take center
+     stage. This card celebrates the youthful spirit of curiosity, fearlessly delving
+     into the world of ideas and self-expression. The sword they hold represents their
+     sharp wit and analytical mind, always seeking to cut through ignorance and uncover
+     new truths.
 
-     [ meaning ]
+     The Page of Swords can sometimes represent a message or news that is coming your way.
+     It may indicate that you will receive information that will help you make an
+     important decision or take action towards your goals.
+
+     Overall, this card is an invitation to wield the sword of inspiration, challenge
+     conventions, and fearlessly bring forth your voice and truth for the world to witness.
+ 
      """,
+
+     # Knight of Swords
      61: """
-     How to interpret the Knight of Swords:
+     When the Knight of Swords appears in a reading, it suggests that you are driven by a
+     strong desire to achieve your goals and make progress quickly. It symbolizes a
+     period of decisive action and clear thinking. 
 
-     [ meaning ]
+     The Knight of Swords can also indicate a need for logic and rationality in your
+     decision-making. It reminds you to analyze situations objectively and think critically
+     before making choices. This card advises against impulsive behavior and encourages
+     you to carefully consider the consequences of your actions.
+
+     Overall, the Knight of Swords urges you to embrace a proactive and decisive approach
+     to challenges and opportunities. It reminds you to use your intellect, act with
+     courage, and move forward fearlessly.
+
      """,
+
+     # King of Swords
      62: """
-     How to interpret the King of Swords:
+     The King of Swords also represents the power of communication and articulation. He
+     is an eloquent speaker and can convey his thoughts with precision and authority.
+     This card suggests that effective communication and assertiveness will play a key
+     role in navigating through complex situations.
 
-     [ meaning ]
+     This card could signify a strong and wise leader or an individual in your life with
+     a keen intellect and analytical mind. He is fair, just, and principled, making
+     decisions based on logic and reason rather than emotions.
+
+     When the King of Swords appears in your reading, it advises you to lean into objective
+     thinking and rationality when dealing with the challenges which surround you currently.
+
      """,
-     63: """
-     How to interpret the Queen of Swords:
 
-     [ meaning ]
+     # Queen of Swords
+     63: """
+     The Queen of Swords signifies a woman who is highly intelligent, objective, and
+     quick-witted. She is a keen observer and possesses excellent communication skills.
+     This card suggests the need to approach situations with clarity, honesty, and
+     straightforwardness, just like the Queen herself.
+
+     This card also symbolizes inner strength and resilience. Despite her rational nature,
+     this Queen is compassionate and deeply understanding. Focus your efforst on cultivating
+     the qualities of self-reliance, analytical thinking, and the ability to make wise
+     decisions even in challenging circumstances.
+
      """,
 
      # Ace of Pentacles
