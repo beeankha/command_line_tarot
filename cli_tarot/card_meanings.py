@@ -235,35 +235,112 @@ meanings = {
      and receiving. This card encourages you to find a middle ground between opposing forces.
 
      """,
+
+     # The Devil
      15: """
-     How to interpret The Devil card:
+     The Devil represents temptation, addiction, and materialism. It signifies a time of self-indulgence
+     and excess, where you may be tempted to give in to your desires and impulses. Whatever mental or
+     emotional prison you find yourself in, know that your bondage is an illusion and you have the power
+     to break free.
 
-     [ meaning ]
+     The Devil also symbolizes a lack of awareness and a sense of being trapped by your own beliefs and
+     attachments. It may indicate that you are stuck in old patterns and habits that are no longer serving
+     you. This card reminds you to examine your thoughts, feelings, and behaviors, and to question whether
+     they are in alignment with your values and highest good.
+
+     The Devil can also represent a toxic relationship or situation that is keeping you stuck. It may
+     indicate that you are being manipulated or controlled by someone else, or that you are allowing
+     yourself to be taken advantage of. This card reminds you to take back your power and to set
+     healthy boundaries in your relationships.
+
+     Ask yourself how badly you want to remain chained, when freedom is just a choice away.
+
      """,
+
+     # The Tower
      16: """
-     How to interpret The Tower card:
+     The Tower represents sudden change, upheaval, and destruction. It signifies a time of chaos and
+     turmoil, where you may feel like everything is falling apart around you. This card reminds you
+     that sometimes things need to be broken down in order to be rebuilt.
 
-     [ meaning ]
+     The Tower can also symbolize a major life transition or a significant loss, possibly something so
+     traumatic that it leaves you questioning your own judgment and/or perception of reality. There's been
+     a shock to the system, and you're still trying to process it all.
+
+     Try to keep in mind that sometimes destruction is necessary in order to rebuild a better foundation.
+     The hurtful event may even turn out to be a blessing in disguise, leading you down a new path that
+     you never would have considered otherwise. It could lead to a liberation from old patterns and to
+     a new sense of freedom and empowerment.
+
      """,
+
+     # The Star
      17: """
-     How to interpret The Star card:
+     The Star represents hope, inspiration, and renewal. It signifies a time of healing and
+     recharging, where you can find peace and comfort in the midst of chaos. This card
+     reminds you to trust in the process of life and to have faith that everything will
+     work out for the best.
 
-     [ meaning ]
+     The Star also symbolizes a sense of purpose and direction. It signifies a time of clarity
+     and insight, where you can see the bigger picture and understand your place in the world.
+
+     The Star can also represent a period of peace after a time of turmoil, of rebuilding after
+     everything seemed lost. It reminds you that there is always hope, even in the darkest of times. 
      """,
+
+     # The Moon
      18: """
-     How to interpret The Moon card:
+     The Moon represents the unconscious mind, intuition, and the unknown. It signifies a time of
+     uncertainty and confusion, where you may feel lost and unsure of what to do next. This card
+     can also represent secrets and hidden motives.
 
-     [ meaning ]
+     The Moon also symbolizes the need for reflection and introspection. It signifies a time of
+     deep inner work, where you can explore your subconscious mind and discover hidden truths
+     about yourself. This card encourages you to look within and to examine your thoughts,
+     feelings, and beliefs. It reminds you that you have the power to create your own reality
+     through your thoughts and actions.
+
+     The Moon can also represent fear and anxiety. It may indicate that you are feeling
+     overwhelmed by your emotions or that you are struggling with self-doubt. This card
+     reminds you to trust in your intuition. Never ignore your gut!
+
      """,
+
+     # The Sun
      19: """
-     How to interpret The Sun card:
+     The Sun represents success, joy, and optimism. It signifies a time of happiness and fulfillment,
+     where you can enjoy the fruits of your labor and bask in the glory of your achievements. This
+     card reminds you to celebrate your accomplishments and to take pride in your work. It encourages
+     you to embrace the present moment and to find joy in the simple pleasures of life.
 
-     [ meaning ]
+     The Sun also symbolizes vitality. It signifies a time of great energy and strength, where you feel
+     rejuvenated and ready to take on new challenges. This card reminds you to tap into your inner
+     power and to trust in your ability to overcome any obstacles that may come your way. It encourages
+     you to be bold and courageous, and to take action towards your goals with confidence and optimism.
+
+     Step out of your comfort zone and try something new!
+
      """,
-     20: """
-     How to interpret Judgment:
 
-     [ meaning ]
+     # Judgement
+     20: """
+     Judgement represents a time of reckoning, a moment of truth where decisions are made and
+     consequences are faced. It signifies a period of reflection and evaluation, where you
+     must consider the consequences of your actions and make decisions that are in alignment
+     with your values and highest good. This card reminds you to take responsibility for your
+     choices and to be accountable for your actions.
+
+     Judgement also symbolizes rebirth and renewal. It signifies a time of awakening and
+     transformation, where you can release the past and embrace a new beginning. This card
+     encourages you to let go of old patterns and beliefs that are no longer serving you,
+     so that you can move forward with confidence and optimism.
+
+     Judgement can also represent a call to action or a wake-up call. It may indicate that
+     you are being called to step up and take action in your life. This card reminds you
+     to listen to your inner voice and follow your intuition, even if it means going against
+     the grain or taking a risk. It encourages you to trust in the process of life and to
+     have faith that everything will work out for the best.
+
      """,
 
      # The World
