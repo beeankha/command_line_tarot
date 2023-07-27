@@ -830,30 +830,67 @@ meanings = {
 
      # Page of Pentacles
      74: """
-     How to interpret the Page of Pentacles:
+     The Page of Pentacles is a card in the Tarot deck that represents a youthful, ambitious,
+     and hard-working individual. This card may also symbolize a promotion, raise, job offer, or
+     a new business venture.
 
-     [ meaning ]
+     The Page of Pentacles is all about the pursuit of knowledge and the desire to expand your
+     horizons. It encourages you to be open to new ideas and experiences, and to seek out
+     opportunities for growth and development. This card reminds you to stay curious and
+     inquisitive, and to approach life with a sense of wonder and excitement.
+
+     The Page of Pentacles can also represent a young person in your life who is eager to learn
+     and grow. It may indicate that you are being called to mentor or guide someone who is
+     seeking your advice or support. This card encourages you to share your knowledge and
+     experience with others, helping them to develop their skills and achieve their goals.
 
      """,
 
      # Knight of Pentacles
      75: """
-     How to interpret the Knight of Pentacles:
+     The Knight of Pentacles is a card in the Tarot deck that represents a hard-working,
+     responsible, and dependable individual. It is all about focusing all of your focus and
+     pragmatic energy on achieving your goals, as well as planning "next steps" for the future.
 
-     [ meaning ]
+     The Knight of Pentacles is all about taking action and making progress towards your goals.
+     It encourages you to be diligent and disciplined in your approach, and to take a step-by-step
+     approach to achieving your goals. This card reminds you to stay focused on the task at hand
+     and to avoid distractions or procrastination.
+
+     Remember to not rush anything, and to accumulate as much experience as you can but at a
+     reasonable rate. Nothing worth working for comes easy, and you must be willing to put in
+     the time and effort to get the results you want.
+
      """,
 
      # King of Pentacles
      76: """
-     How to interpret the King of Pentacles:
+     The King of Pentacles is a card in the Tarot deck that represents a mature, responsible,
+     down-to-earth person with masculine energy who provides well for his family and community.
 
-     [ meaning ]
+     There is much wealth and prosperity indicated by this card, and it is a sign that you
+     have the ability to create abundance in your life. This card encourages you to take
+     responsibility for your financial well-being and to make wise investments that will
+     provide long-term security and stability.
+
+     The King of Pentacles also symbolizes a strong sense of self-worth and confidence. It
+     suggests that you have a solid foundation of self-esteem and self-respect, which allows
+     you to make decisions with clarity and conviction. This card reminds you to trust in
+     your abilities and to have faith in your own judgment (or lean on an older, wiser man who
+     might remind you of this card's energy).
+
      """,
 
      # Queen of Pentacles
      77: """
-     How to interpret the Queen of Pentacles:
+     The Queen of Pentacles is a caring, reliable woman who takes a practical approach to any and
+     all situations. She creates a life of abundance for herself and those in her care. She is
+     fond of material comforts and has a great sense for business and diplomacy.
 
-     [ meaning ]
+     If this card shows up in your reading, it means that you (or someone you know) are a practical
+     person who is generous but not foolishly so. The Queen of Pentacles symbolizes the ability
+     to use and distribute real wealth and resources wisely. There is an energy here of being comfortable
+     with one's own wealth and not being afraid to share it with others.
+
      """,
     }
