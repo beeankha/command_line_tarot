@@ -1,4 +1,5 @@
 meanings = {
+     # The Fool
      0: """
      Do you have a new relationship or journey coming up in your life? If you are about to start
      a new business venture, job, travel, or relationship, this card indicates a green light
@@ -18,6 +19,7 @@ meanings = {
 
      """,
 
+     # The Magician
      1: """
      The Magician represents strength of will, intuition, self-control, self-confidence,
      autonomy, and diplomacy. The positive qualities of humankind: skill, initiative,
@@ -38,6 +40,7 @@ meanings = {
 
      """,
 
+     # The High Priestess
      2: """
      The High Priestess symbolizes intuition and inner power. Don't chase the answers; let them
      come to you. Listen to your gut and don't force anything to happen. If there is an important
@@ -53,6 +56,7 @@ meanings = {
 
      """,
 
+     # The Empress
      3: """
      The Empress represents the archetype of The Mother, who can teach and maintain domestic harmony,
      personal fulfillment, as well as comfort and security. This card may indicate upcoming events or
@@ -72,6 +76,7 @@ meanings = {
 
      """,
 
+     # The Emperor
      4: """
      Is there a need for more structure, order, and control in your life? The Emperor represents these
      concepts and is in direct opposition to "light" themes such as spontaneity and frivolity. Even if you
@@ -85,6 +90,7 @@ meanings = {
 
      """,
 
+     # The Hierophant
      5: """
      The Hierophant represent any institution that is run by authority figures who claim to know what is best
      for a group of people (e.g., philosphical or religious institutions, academia, etc.); your current
@@ -99,6 +105,7 @@ meanings = {
 
      """,
 
+     # The Lovers
      6: """
      Is there a temptation or big choice dominating your life lately? If you're faced with the task of making
      a big decision, the Lovers card is telling you to trust your higher guidance and lean into the choice that
@@ -113,16 +120,20 @@ meanings = {
 
      """,
 
+     # The Chariot
      7: """
      The Chariot represents movement, victory, and the mastery of opposing forces by decision-making and strength
      of will. It is absolutely imperative for you to not feel internally fractured, for you need everything in
      your inner world to be unified in order to achieve victory over any problems you are currently facing.
 
      Whatever your challenges are, stay true to yourself and you will be able to overcome them. Make sure to keep
-     up with any changes that are happening around you in your life, and accept help when offered.
+     up with any changes that are happening around you in your life, and accept help when offered. You're headed
+     to your destination quickly, but as much as you can, don't forcefully rush anything. You will get there in
+     due time.
 
      """,
 
+     # Strength
      8: """
      Strength indicates the confidence that arises when we take responsibility for our own issues and take matters
      into our own capable hands. There is a theme of control with this card, but without any need for force. It
@@ -135,6 +146,7 @@ meanings = {
      Victory is won by right, not by might.
      """,
 
+     # The Hermit
      9: """
      When The Hermit comes up, it's an indication that you might need some time alone in order to think and be
      introspective. Intentionally set aside some time to be away from others in order to gain perspective on your
@@ -146,6 +158,7 @@ meanings = {
 
      """,
 
+     # Wheel of Fortune
      10: """
      The Wheel of Fortune represents chance and events over which you have no control. The wheel of fate keeps
      turning for everyone, whether or not we are aware of it. You might be feeling like you need to fight in
@@ -158,60 +171,194 @@ meanings = {
      is leading you to a better destiny even if things seem random and chaotic in the moment.
      """,
 
+     # Justice
      11: """
-     How to interpret Justice card:
+     The Justice card in the Tarot deck represents fairness, balance, and truth. It signifies the need for
+     impartial judgment, integrity, and accountability in your life. This card reminds you to make decisions
+     based on objective assessment and to consider the consequences of your actions. It also encourages you
+     to seek justice, uphold your commitments, and find a harmonious balance in your relationships.
 
-     [ meaning ]
+     Justice highlights the importance of ethical behavior and making choices that align with your values. Overall,
+     it emphasizes the need for fairness, honesty, and the pursuit of truth in your life.
+
+     # The Hanged Man
      """,
      12: """
-     How to interpret The Hanged Man:
+     The Hanged Man represents a shift in perspective, and embracing a different way of seeing things. It
+     urges you to pause, let go of control, and trust in the process of life. This card invites you to
+     release attachments, surrender to the present moment, and open yourself to new insights and understanding.
+     It signifies a period of suspension and inner transformation, where you can find wisdom and personal
+     growth through surrendering to the unknown.
 
-     [ meaning ]
+     This card can also be a warning against too much self-sacrifice or martyrdom. It reminds you to
+     consider whether you are giving up too much of yourself in order to please others or to avoid
+     conflict. It encourages you to find a balance between selflessness and self-care, and to make
+     decisions that are in alignment with your values and highest good.
+
+     Overall, the Hanged Man symbolizes a powerful journey of surrender, reflection, and spiritual growth. It
+     urges you to let go of attachments, shift your perspective, and trust in the process of life. By embracing
+     the unknown and surrendering to the flow, you can discover new insights, gain wisdom, and experience profound
+     transformation. The Hanged Man invites you to embrace the stillness within and find enlightenment in the
+     suspended state of surrender.
+
      """,
+
+     # Death
      13: """
-     How to interpret the Death card:
+     In tarot, the Death card represents endings, transformation, and letting go. It signifies the end of one
+     cycle and the beginning of another. This card reminds you to release attachments and old patterns that
+     are no longer serving you, so that you can make room for new opportunities and growth. It also encourages
+     you to embrace change and trust in the process of life.
 
-     [ meaning ]
+     The Death card can also symbolize a major life transition or a significant loss. It may indicate the
+     end of a relationship, a job, or a phase in your life. This card reminds you that endings are a natural
+     part of life, and that they often lead to new beginnings. It encourages you to let go of the past and
+     embrace the unknown, so that you can move forward with confidence and optimism.
+
+     Change cannot be avoided, but it can be embraced. New life will always follow disintegration. The questions
+     to ask yourself are: "What is coming to an end? What is waiting to be born?"
      """,
+
+     # Temperance
      14: """
-     How to interpret Temperance:
+     Temperance, at its core, represents moderation and balance. It signifies the need to find harmony and
+     equilibrium in your life, and to avoid extremes. This card reminds you to take a balanced approach to
+     your goals and aspirations, and to find a middle ground between opposing forces. It also encourages
+     you to be patient and to trust in the process of life.
 
-     [ meaning ]
+     Go with the flow, find the sweet spot. Sobriety, stability, and spiritual growth are what this card is
+     all about. Perhaps you're burnt out or have not been productive in a while; this card is telling you
+     to take a break and find a sense of balance in your life.
+
+     Temperance also symbolizes the importance of moderation and self-control. It reminds you to avoid
+     excess and to find a healthy balance between work and play, discipline and indulgence, and giving
+     and receiving. This card encourages you to find a middle ground between opposing forces.
+
      """,
+
+     # The Devil
      15: """
-     How to interpret The Devil card:
+     The Devil represents temptation, addiction, and materialism. It signifies a time of self-indulgence
+     and excess, where you may be tempted to give in to your desires and impulses. Whatever mental or
+     emotional prison you find yourself in, know that your bondage is an illusion and you have the power
+     to break free.
 
-     [ meaning ]
+     The Devil also symbolizes a lack of awareness and a sense of being trapped by your own beliefs and
+     attachments. It may indicate that you are stuck in old patterns and habits that are no longer serving
+     you. This card reminds you to examine your thoughts, feelings, and behaviors, and to question whether
+     they are in alignment with your values and highest good.
+
+     The Devil can also represent a toxic relationship or situation that is keeping you stuck. It may
+     indicate that you are being manipulated or controlled by someone else, or that you are allowing
+     yourself to be taken advantage of. This card reminds you to take back your power and to set
+     healthy boundaries in your relationships.
+
+     Ask yourself how badly you want to remain chained, when freedom is just a choice away.
+
      """,
+
+     # The Tower
      16: """
-     How to interpret The Tower card:
+     The Tower represents sudden change, upheaval, and destruction. It signifies a time of chaos and
+     turmoil, where you may feel like everything is falling apart around you. This card reminds you
+     that sometimes things need to be broken down in order to be rebuilt.
 
-     [ meaning ]
+     The Tower can also symbolize a major life transition or a significant loss, possibly something so
+     traumatic that it leaves you questioning your own judgment and/or perception of reality. There's been
+     a shock to the system, and you're still trying to process it all.
+
+     Try to keep in mind that sometimes destruction is necessary in order to rebuild a better foundation.
+     The hurtful event may even turn out to be a blessing in disguise, leading you down a new path that
+     you never would have considered otherwise. It could lead to a liberation from old patterns and to
+     a new sense of freedom and empowerment.
+
      """,
+
+     # The Star
      17: """
-     How to interpret The Star card:
+     The Star represents hope, inspiration, and renewal. It signifies a time of healing and
+     recharging, where you can find peace and comfort in the midst of chaos. This card
+     reminds you to trust in the process of life and to have faith that everything will
+     work out for the best.
 
-     [ meaning ]
+     The Star also symbolizes a sense of purpose and direction. It signifies a time of clarity
+     and insight, where you can see the bigger picture and understand your place in the world.
+
+     The Star can also represent a period of peace after a time of turmoil, of rebuilding after
+     everything seemed lost. It reminds you that there is always hope, even in the darkest of times. 
      """,
+
+     # The Moon
      18: """
-     How to interpret The Moon card:
+     The Moon represents the unconscious mind, intuition, and the unknown. It signifies a time of
+     uncertainty and confusion, where you may feel lost and unsure of what to do next. This card
+     can also represent secrets and hidden motives.
 
-     [ meaning ]
+     The Moon also symbolizes the need for reflection and introspection. It signifies a time of
+     deep inner work, where you can explore your subconscious mind and discover hidden truths
+     about yourself. This card encourages you to look within and to examine your thoughts,
+     feelings, and beliefs. It reminds you that you have the power to create your own reality
+     through your thoughts and actions.
+
+     The Moon can also represent fear and anxiety. It may indicate that you are feeling
+     overwhelmed by your emotions or that you are struggling with self-doubt. This card
+     reminds you to trust in your intuition. Never ignore your gut!
+
      """,
+
+     # The Sun
      19: """
-     How to interpret The Sun card:
+     The Sun represents success, joy, and optimism. It signifies a time of happiness and fulfillment,
+     where you can enjoy the fruits of your labor and bask in the glory of your achievements. This
+     card reminds you to celebrate your accomplishments and to take pride in your work. It encourages
+     you to embrace the present moment and to find joy in the simple pleasures of life.
 
-     [ meaning ]
+     The Sun also symbolizes vitality. It signifies a time of great energy and strength, where you feel
+     rejuvenated and ready to take on new challenges. This card reminds you to tap into your inner
+     power and to trust in your ability to overcome any obstacles that may come your way. It encourages
+     you to be bold and courageous, and to take action towards your goals with confidence and optimism.
+
+     Step out of your comfort zone and try something new!
+
      """,
+
+     # Judgement
      20: """
-     How to interpret Judgment:
+     Judgement represents a time of reckoning, a moment of truth where decisions are made and
+     consequences are faced. It signifies a period of reflection and evaluation, where you
+     must consider the consequences of your actions and make decisions that are in alignment
+     with your values and highest good. This card reminds you to take responsibility for your
+     choices and to be accountable for your actions.
 
-     [ meaning ]
+     Judgement also symbolizes rebirth and renewal. It signifies a time of awakening and
+     transformation, where you can release the past and embrace a new beginning. This card
+     encourages you to let go of old patterns and beliefs that are no longer serving you,
+     so that you can move forward with confidence and optimism.
+
+     Judgement can also represent a call to action or a wake-up call. It may indicate that
+     you are being called to step up and take action in your life. This card reminds you
+     to listen to your inner voice and follow your intuition, even if it means going against
+     the grain or taking a risk. It encourages you to trust in the process of life and to
+     have faith that everything will work out for the best.
+
      """,
-     21: """
-     How to interpret The World card:
 
-     [ meaning ]
+     # The World
+     21: """
+     The World represents completion, integration, and accomplishment. It signifies the end of one cycle
+     and the beginning of another. This card reminds you to celebrate your achievements and to reflect
+     on how far you have come.
+
+     The World can also symbolize a sense of wholeness and unity. It signifies a time when you feel
+     connected to yourself, others, and the world around you. This card encourages you to embrace
+     your uniqueness and to share your gifts with the world. It reminds you that you are a part of
+     something greater than yourself, and that you have a role to play in the larger scheme of things.
+
+     The World also represents the completion of a journey or project. It signifies the fulfillment
+     of your goals and the attainment of your desires. This card reminds you to celebrate your
+     accomplishments and to take pride in your achievements. It encourages you to reflect on how
+     far you have come and to look forward to the future with optimism and excitement.
+
      """,
      22: """
      How to interpret the Ace of Wands:
@@ -423,9 +570,9 @@ meanings = {
 
      [ meaning ]
      """,
-     64: """
-     How to interpret the Ace of Pentacles:
 
+     # Ace of Pentacles
+     64: """
      The Ace of Pentacles is a powerful and positive card in the Tarot deck, representing
      new beginnings, potential, and material abundance. It signifies opportunities and
      the manifestation of goals in the realm of finances, resources, and the physical world.
@@ -449,45 +596,21 @@ meanings = {
      your health, home, or other aspects of your life that contribute to your overall
      well-being and stability.
 
-     In a broader sense, the Ace of Pentacles represents the alignment of the spiritual
-     and the material realms. It signifies the importance of finding balance and harmony
-     between your material needs and your spiritual aspirations. It encourages you to
-     pursue your goals and dreams with a practical mindset, while also staying connected
-     to your values and higher purpose.
-
-     Overall, the Ace of Pentacles brings a message of opportunity, abundance, and the
-     potential for material success. It encourages you to be open to new beginnings,
-     to utilize your resources wisely, and to create a solid foundation for growth
-     and prosperity. By embracing the energy of this card, you can manifest your
-     goals and aspirations in the physical world while maintaining a sense of balance
-     and harmony.
-
      """,
+
+     # Two of Pentacles
      65: """
-     How to interpret the Two of Pentacles:
-
      The Two of Pentacles symbolizes balance, adaptability, and juggling multiple
-     priorities. It often portrays a figure who is balancing two pentacles or coins,
-     representing the need to manage and harmonize different aspects of life.
-
-     The Two of Pentacles suggests that you are facing a period of balancing various
-     responsibilities, tasks, or commitments. It could indicate that you have multiple
-     projects, obligations, or demands on your time and energy. This card reminds you
-     to find a harmonious rhythm and adaptability in order to handle these different
-     areas effectively.
+     priorities. When it appears in a reading, it suggests that you are facing a period
+     of balancing various responsibilities, tasks, or commitments. It could indicate
+     that you have multiple projects, obligations, or demands on your time and energy. This
+     card reminds you to find a harmonious rhythm and adaptability in order to handle these
+     different areas effectively.
 
      The Two of Pentacles serves as a reminder that life is full of ups and downs,
-     and it is important to remain flexible and adaptable in the face of change. It
-     suggests that you may need to make adjustments or prioritize your activities in
-     order to maintain a sense of equilibrium. It may require finding creative solutions,
-     managing your time efficiently, and staying focused on your goals amidst
-     competing demands.
-
-     In a broader sense, the Two of Pentacles encourages you to find a balance between
-     work and play, responsibility and freedom, or different areas of your life such
-     as career, relationships, and personal well-being. It advises against becoming
-     too fixated on one aspect at the expense of others. This card reminds you of the
-     importance of finding harmony and integration in all areas of your life.
+     and it is important to remain flexible and adaptable in the face of change. It advises
+     against becoming too fixated on one aspect at the expense of others. This card reminds
+     you of the importance of finding harmony and integration in all areas of your life.
 
      The Two of Pentacles can also serve as a reminder to remain adaptable and open
      to change. It suggests that flexibility and a willingness to adjust your plans
@@ -495,19 +618,13 @@ meanings = {
      change and maintaining a balanced perspective, you can navigate through life's
      uncertainties with grace and ease.
 
-     Overall, the Two of Pentacles invites you to find a sense of balance and adaptability
-     as you juggle multiple aspects of your life. It reminds you to remain flexible,
-     prioritize effectively, and make adjustments when necessary. By embracing change
-     and finding harmony, you can navigate through challenges and create a sense of
-     equilibrium and fulfillment in your life.
-
      """,
-     66: """
-     How to interpret the Three of Pentacles:
 
+     # Three of Pentacles
+     66: """
      The Three of Pentacles represents collaboration, teamwork, and the mastery of
      skills. It often depicts three individuals working together on a project, with
-     a sense of unity and shared purpose.
+     a sense of unity and shared purpose. The main theme of this card is "teamwork".
 
      When the Three of Pentacles appears in a reading, it suggests that you are in
      a phase where collaboration and cooperation will be beneficial to your goals
@@ -523,37 +640,20 @@ meanings = {
      your work. This card suggests that your efforts and commitment will be recognized
      and rewarded.
 
-     In a broader context, the Three of Pentacles represents the importance of building
-     a solid foundation. It advises you to lay the groundwork for long-term success by
-     investing time, effort, and energy into your endeavors. This card encourages you
-     to be diligent, patient, and persistent in your pursuits, as the results of your
-     hard work will gradually manifest.
+     Additionally, this card can indicate the need for constructive feedback and collaboration
+     in order to refine your skills and improve your work. It suggests that seeking guidance or
+     mentorship from those who have more experience can greatly enhance our progress and help you
+     reach new levels of achievement.
 
-     Furthermore, the Three of Pentacles can indicate the need for constructive
-     feedback and collaboration in order to refine your skills and improve your
-     work. It suggests that seeking guidance or mentorship from those who have
-     more experience can greatly enhance our progress and help you reach new
-     levels of achievement.
-
-     Overall, the Three of Pentacles signifies the power of collaboration, skillful
-     craftsmanship, and the importance of building a solid foundation. It encourages
-     you to work together with others, refine your abilities, and invest in your
-     long-term success. By embracing teamwork and continuous improvement, you can
-     achieve remarkable results and create a strong and fulfilling future.
+     Be open to learning and teaching in order to grow your skills!
 
      """,
+
+     # Four of Pentacles
      67: """
-     How to interpret the Four of Pentacles:
-
-     The Four of Pentacles embodies themes of possessiveness, stability, and material
-     security. It often depicts a figure holding onto four pentacles tightly, symbolizing
-     a desire for control and a reluctance to let go.
-
-     When the Four of Pentacles appears in a reading, it suggests a strong emphasis on
-     material possessions, financial security, and stability. It may indicate a need
-     to hold onto what you have, whether it be money, resources, or material possessions,
-     out of fear of loss or a desire for control. This card signifies a cautious and
-     conservative approach to managing your resources and maintaining a sense of stability.
+     The Four of Pentacles embodies themes of possessiveness and hoarding. It often depicts
+     a figure holding onto four pentacles tightly, symbolizing a desire for control and a reluctance
+     to let go.
 
      On one hand, the Four of Pentacles can be seen as a positive indication of financial
      stability and a disciplined approach to managing your resources. It may suggest
@@ -573,23 +673,15 @@ meanings = {
      card encourages you to examine whether your need for control is impacting your
      relationships and consider opening yourself up to trust and vulnerability.
 
-     Overall, the Four of Pentacles invites you to reflect on your relationship
-     with material possessions, control, and stability. It encourages you to find
-     a balance between holding onto what you have and being open to the flow of
-     abundance and change. By cultivating a mindset of abundance and letting go
-     of excessive attachment, you can create space for growth, new opportunities,
-     and a stronger sense of security.
+     By cultivating a mindset of abundance and letting go of excessive attachment, you can
+     create space for growth, new opportunities, and a stronger sense of security.
 
      """,
+
+     # Five of Pentacles
      68: """
-     How to interpret the Five of Pentacles:
-
      The Five of Pentacles is a card in the Tarot deck that represents hardship, financial
-     struggles, and feelings of lack or exclusion. It often depicts two individuals
-     walking in the snow, seemingly in need, while a light shines from a distant window,
-     symbolizing hope.
-
-     When the Five of Pentacles appears in a reading, it suggests that you may be
+     struggles, and feelings of lack or exclusion. This card suggests that you may be
      experiencing a period of difficulty or adversity, particularly in the realm
      of finances, resources, or material well-being. It signifies a sense of loss,
      deprivation, or feeling excluded from the support systems around you. This
@@ -610,23 +702,10 @@ meanings = {
      you to tap into your inner strength, adaptability, and resourcefulness to
      overcome adversity.
 
-     In relationships, the Five of Pentacles may suggest a period of strain or hardship
-     within a partnership. It could indicate financial challenges impacting the
-     relationship or a sense of feeling unsupported. It encourages open and honest
-     communication, seeking assistance if needed, and finding ways to support each other
-     during difficult times.
-
-     Overall, the Five of Pentacles reminds you to have faith in the midst of adversity,
-     seek help when necessary, and be open to finding support and abundance in unexpected
-     places. It invites you to focus on your inner resilience, adaptability, and the
-     potential for growth that can arise from challenging circumstances. Remember
-     that this too shall pass, and there are always opportunities for healing, transformation,
-     and a brighter future.
-
      """,
-     69: """
-     How to interpret the Six of Pentacles:
 
+     # Six of Pentacles
+     69: """
      The Six of Pentacles represents themes of generosity, giving, and receiving
      in the context of material wealth and resources. It often portrays a figure
      who is distributing coins or pentacles to others, symbolizing the act of
@@ -646,22 +725,10 @@ meanings = {
      you that it is okay to accept assistance when needed, as long as you maintain
      a sense of balance and gratitude.
 
-     On a deeper level, the Six of Pentacles can also symbolize the concept of
-     karma or the law of reciprocity. It suggests that the energy you put out
-     into the world will come back to you in some form. By being generous and
-     compassionate, you create a positive cycle of giving and receiving, which
-     can lead to greater abundance and harmony in your life.
-
-     Overall, the Six of Pentacles encourages you to embrace the spirit of generosity
-     and fairness, both in giving and receiving. It reminds you of the importance of
-     sharing your blessings and helping others, while also allowing yourself to receive
-     assistance when necessary. By embodying these qualities, you can create a more
-     balanced and harmonious existence.
-
      """,
-     70: """
-     How to interpret the Seven of Pentacles:
 
+     # Seven of Pentacles
+     70: """
      The Seven of Pentacles is a card in the Tarot deck that represents patience,
      perseverance, and the anticipation of future rewards. It often portrays a
      figure standing in a garden, tending to the growth of plants or pentacles,
@@ -680,43 +747,23 @@ meanings = {
      success often requires sustained effort, and it may take time for your efforts
      to manifest tangible results.
 
-     In a broader sense, the Seven of Pentacles invites you to consider your long-term
-     goals and aspirations. It encourages you to be strategic and to invest your time,
-     energy, and resources wisely in endeavors that have the potential for growth and
-     long-lasting rewards. This card suggests that you may need to make adjustments,
-     reevaluate your strategies, or seek guidance from others to ensure that you are
-     on the right track.
-
-     The Seven of Pentacles also highlights the importance of balance and nurturing
-     in your pursuits. It advises you to take care of yourself and your projects,
-     just as a gardener tends to their plants. It reminds you to find a harmonious
-     rhythm between effort and rest, allowing yourself time to recharge and rejuvenate.
-
-     Overall, the Seven of Pentacles emphasizes the value of patience, perseverance,
-     and thoughtful assessment. It encourages you to trust in the process and to remain
-     committed to your long-term goals. By being patient, taking time for reflection,
-     and making adjustments when necessary, you can cultivate a fertile ground for success
-     and eventually reap the rewards of your efforts.
+     Consider your long-term goals and aspirations. You must be strategic and to invest
+     your time, energy, and resources wisely in endeavors that have the potential for
+     growth and long-lasting rewards. Take care of yourself and your projects, just as a
+     gardener tends to their plants.
 
      """,
-     71: """
-     How to interpret the Eight of Pentacles:
 
+     # Eight of Pentacles
+     71: """
      The Eight of Pentacles symbolizes dedication, craftsmanship, and the pursuit of
      mastery. It often depicts a figure diligently working on a pentacle, engrossed
      in their task and displaying a commitment to honing their skills.
 
-     The Eight of Pentacles points to a period of focused effort, hard work, and the
-     desire to improve your skills or knowledge in a specific area. It symbolizes a
-     diligent and disciplined approach to your craft, profession, or personal development.
-     This card encourages you to invest time and energy in refining your abilities and
-     committing yourself to excellence.
-
-     The Eight of Pentacles often indicates a sense of apprenticeship or learning. It
-     suggests that you may be in a phase of acquiring new skills or furthering your
-     education. It could involve studying, training, or seeking guidance from mentors
-     or experts in your field. This card emphasizes the importance of continuous
-     learning and growth to enhance your expertise and achieve mastery.
+     This card points to a period of focused effort, hard work, and the desire to improve
+     your skills or knowledge in a specific area. It symbolizes a diligent and disciplined
+     approach to your craft, profession, or personal development. Invest time and energy in
+     refining your abilities and committing yourself to excellence.
 
      The Eight of Pentacles also highlights the value of persistence and long-term
      commitment. It signifies that the effort and dedication you put into your work
@@ -730,27 +777,14 @@ meanings = {
      in itself. This card reminds you to cultivate a sense of craftsmanship, taking pride
      in your abilities and finding satisfaction in the quality of your work.
 
-     Overall, the Eight of Pentacles represents a period of dedicated effort, skill
-     development, and commitment to your craft or goals. It reminds you of the importance
-     of perseverance, continuous learning, and taking pride in your work. By staying focused,
-     disciplined, and passionate about your pursuits, you can achieve a high level of
-     expertise and create meaningful results.
-
      """,
+
+     # Nine of Pentacles
      72: """
-     How to interpret the Nine of Pentacles:
-
      The Nine of Pentacles is all about abundance, self-sufficiency, and enjoying the
-     rewards of your efforts. It often portrays a figure in a lush garden, surrounded
-     by nature and luxury, symbolizing a state of material and personal fulfillment.
+     rewards of your efforts.
 
-     The Nine of Pentacles can also signify a period of prosperity and achievement. It
-     indicates that you have reached a stage of financial stability, independence, and
-     self-sufficiency through your hard work and dedication. This card celebrates your
-     ability to create a comfortable and abundant life for yourself.
-
-     The Nine of Pentacles also highlights the importance of enjoying the fruits of your
-     labor. It encourages you to take pleasure in the luxuries, comforts, and finer things
+     This card encourages you to take pleasure in the luxuries, comforts, and finer things
      in life that you have worked hard to attain. This card reminds you to indulge in
      self-care, relaxation, and the rewards of your accomplishments, appreciating the
      beauty and abundance that surrounds you.
@@ -767,24 +801,13 @@ meanings = {
      enjoy moments of solitude without feeling lonely. This card encourages you to embrace
      your independence and cultivate a sense of inner strength and self-reliance.
 
-     Overall, the Nine of Pentacles is a card of abundance, self-sufficiency, and personal
-     fulfillment. It celebrates your achievements, both material and personal, and encourages
-     you to enjoy the rewards of your hard work. It reminds you to find joy in the present
-     moment, appreciate the beauty around you, and cultivate a sense of inner contentment and
-     self-worth.
-
      """,
-     73: """
-     How to interpret the Ten of Pentacles:
 
+     # Ten of Pentacles
+     73: """
      The Ten of Pentacles is a card in the Tarot deck that represents abundance, wealth,
      legacy, and the fulfillment of material and familial goals. It often portrays a
      scene of a prosperous family, surrounded by symbols of affluence and generational wealth.
-
-     When the Ten of Pentacles appears in a reading, it signifies a period of financial security,
-     stability, and material prosperity. It suggests that you have reached a stage of abundance
-     and success in your material endeavors. This card often indicates the culmination of hard
-     work, wise investments, or the realization of long-term financial goals.
 
      Beyond material wealth, the Ten of Pentacles also emphasizes the importance of family,
      tradition, and generational ties. It represents the bonds and support within your family
@@ -803,31 +826,71 @@ meanings = {
      sense of security and contentment within your relationships, where the emotional and material
      needs of all parties are met.
 
-     Overall, the Ten of Pentacles is a card of abundance, financial security, and the fulfillment
-     of material and familial goals. It encourages you to celebrate your achievements, appreciate
-     the support of your loved ones, and create a lasting legacy. It reminds you to find joy and
-     meaning in the material aspects of life, while also nurturing the emotional bonds that bring
-     true richness and satisfaction.
-
      """,
+
+     # Page of Pentacles
      74: """
-     How to interpret the Page of Pentacles:
+     The Page of Pentacles is a card in the Tarot deck that represents a youthful, ambitious,
+     and hard-working individual. This card may also symbolize a promotion, raise, job offer, or
+     a new business venture.
 
-     [ meaning ]
+     The Page of Pentacles is all about the pursuit of knowledge and the desire to expand your
+     horizons. It encourages you to be open to new ideas and experiences, and to seek out
+     opportunities for growth and development. This card reminds you to stay curious and
+     inquisitive, and to approach life with a sense of wonder and excitement.
+
+     The Page of Pentacles can also represent a young person in your life who is eager to learn
+     and grow. It may indicate that you are being called to mentor or guide someone who is
+     seeking your advice or support. This card encourages you to share your knowledge and
+     experience with others, helping them to develop their skills and achieve their goals.
+
      """,
+
+     # Knight of Pentacles
      75: """
-     How to interpret the Knight of Pentacles:
+     The Knight of Pentacles is a card in the Tarot deck that represents a hard-working,
+     responsible, and dependable individual. It is all about focusing all of your focus and
+     pragmatic energy on achieving your goals, as well as planning "next steps" for the future.
 
-     [ meaning ]
+     The Knight of Pentacles is all about taking action and making progress towards your goals.
+     It encourages you to be diligent and disciplined in your approach, and to take a step-by-step
+     approach to achieving your goals. This card reminds you to stay focused on the task at hand
+     and to avoid distractions or procrastination.
+
+     Remember to not rush anything, and to accumulate as much experience as you can but at a
+     reasonable rate. Nothing worth working for comes easy, and you must be willing to put in
+     the time and effort to get the results you want.
+
      """,
+
+     # King of Pentacles
      76: """
-     How to interpret the King of Pentacles:
+     The King of Pentacles is a card in the Tarot deck that represents a mature, responsible,
+     down-to-earth person with masculine energy who provides well for his family and community.
 
-     [ meaning ]
+     There is much wealth and prosperity indicated by this card, and it is a sign that you
+     have the ability to create abundance in your life. This card encourages you to take
+     responsibility for your financial well-being and to make wise investments that will
+     provide long-term security and stability.
+
+     The King of Pentacles also symbolizes a strong sense of self-worth and confidence. It
+     suggests that you have a solid foundation of self-esteem and self-respect, which allows
+     you to make decisions with clarity and conviction. This card reminds you to trust in
+     your abilities and to have faith in your own judgment (or lean on an older, wiser man who
+     might remind you of this card's energy).
+
      """,
-     77: """
-     How to interpret the Queen of Pentacles:
 
-     [ meaning ]
+     # Queen of Pentacles
+     77: """
+     The Queen of Pentacles is a caring, reliable woman who takes a practical approach to any and
+     all situations. She creates a life of abundance for herself and those in her care. She is
+     fond of material comforts and has a great sense for business and diplomacy.
+
+     If this card shows up in your reading, it means that you (or someone you know) are a practical
+     person who is generous but not foolishly so. The Queen of Pentacles symbolizes the ability
+     to use and distribute real wealth and resources wisely. There is an energy here of being comfortable
+     with one's own wealth and not being afraid to share it with others.
+
      """,
     }
