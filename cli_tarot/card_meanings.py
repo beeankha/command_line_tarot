@@ -615,55 +615,147 @@ meanings = {
      nurturing energy.
 
      """,
+
+     # Ace of Swords
      50: """
-     How to interpret the Ace of Swords:
+     The Ace of Swords is a powerful card in the Tarot deck, representing a new beginning
+     or the emergence of a new idea. It signifies a time of intellectual clarity and
+     mental focus, where you can see your goals clearly and are ready to take action.
 
-     [ meaning ]
+     A new opportunity may be coming your way, and it will require you to focus your mind.
+     Anything that was obscured will soon become sharp and evident.
+
+     Aces are an auspicious card to get in a reading; this one might be telling you that it's
+     time to go ahead and make those decisions that you've been putting off!
+
      """,
+
+     # Two of Swords
      51: """
-     How to interpret the Two of Swords:
+     The Two of Swords indicates the existence of two opposing forces in your life that have
+     reached some sort of stalemate. You might currently feel like you're stuck between a
+     rock and a hard place, and that it's impossible to move forward with any sort of decision.
 
-     [ meaning ]
+     This card may be shining a light on the fact that there might be some sort of hard truth
+     that you're not fully facing. It's time to make a decision, even if it's not the most
+     comfortable one. You can't stay in this limbo forever.
+
+     Is there possibly a situation in your life that you're unwilling to accept? It's time to
+     try to distinguish between what is real and what is imagined. You might be surprised at
+     how much you can accomplish once you make a decision and stick to it.
+
      """,
+
+     # Three of Swords
      52: """
-     How to interpret the Three of Swords:
+     The Three of Swords represents heartbreak, betrayal, and emotional pain. It signifies
+     a time of sadness and grief, where you may be feeling hurt, disappointed, or disillusioned.
+     This card reminds you that pain is a natural part of life, and that you must allow yourself
+     to feel your emotions fully in order to heal and move forward.
 
-     [ meaning ]
+     Whether you like it or not, it might be time to let go of a relationship or situation that
+     is no longer serving you. This card encourages you to release attachments and move on, even
+     if it is painful.
+
+     Sometimes it's best to rest and wait for your heart to mend. This card is a reminder that
+     you're not alone in your pain, and that you'll get through this difficult time.
+
      """,
+
+     # Four of Swords
      53: """
-     How to interpret the Four of Swords:
+     The Four of Swords represents rest, relaxation, and recuperation. It signifies a time of
+     reflection and introspection, where you can take a break from the chaos of life and focus
+     on your inner world. This card reminds you to slow down and take time for yourself, so that
+     you can recharge and regain your strength.
 
-     [ meaning ]
+     The Four of Swords can also represent a period of recovery after a time of stress or difficulty.
+     It may indicate that you need to take a step back and focus on your health and well-being. Find
+     ways to quiet your mind; take time to recuperate and move inward before you burn out.
+
      """,
+
+     # Five of Swords
      54: """
-     How to interpret the Five of Swords:
+     The Five of Swords represents conflict, tension, and discord. It warns against being lured into
+     a situation or argument that you know to avoid. This card reminds you to be mindful of your
+     actions and to consider the consequences of your choices.
 
-     [ meaning ]
+     The Five of Swords can also represent someone who is acting in an unethical manner. Anyone who
+     hurts people around them will be doomed to a short-lived victory and karmic retribution. This
+     card is a reminder that you can't always win, and that sometimes it's better to walk away from
+     a situation than to fight for something that isn't worth it. It encourages you to choose your
+     battles wisely and to avoid unnecessary conflict.
+
      """,
+
+     # Six of Swords
      55: """
-     How to interpret the Six of Swords:
+     The Six of Swords represents a journey of healing and recovery. It signifies a time of moving forward
+     and recovering from either physical or emotional issues and injuries. Your frame of mind is changing,
+     and you're ready to leave the past behind you. This card reminds you that you have the power to
+     overcome any obstacles in your life, and that you can move forward with confidence and optimism.
 
-     [ meaning ]
+     Hope is on the horizon. Things will get better. Make sure to rest, revitalize, and surround yourself
+     with people who make you feel good. Planning a trip and experiencing a change of scenery may be of
+     extra benefit to you at this time, so go ahead and plan that getaway!
+
      """,
+
+     # Seven of Swords
      56: """
-     How to interpret the Seven of Swords:
+     The Seven of Swords represents deception, trickery, and betrayal. It signifies a time of dishonesty
+     and manipulation, where you may be feeling deceived or taken advantage of. This card reminds you to
+     be wary of those around you and to trust your instincts when something doesn't feel right.
 
-     [ meaning ]
+     Deceit and avoidance linger in the air; if you don't face the cause of secrecy, you risk ostracizing
+     yourself. This card is a reminder that you can't always trust others, and that sometimes it's better
+     to keep your guard up than to be vulnerable and open yourself up to hurt. Keep your wits about you and
+     always trust your gut.
+
      """,
+
+     # Eight of Swords
      57: """
-     How to interpret the Eight of Swords:
+     The Eight of Swords represents a feeling of being trapped or restricted. It signifies a time of
+     feeling like you have no choices and are unable to move forward. This card reminds you that you
+     always have a choice, even if it doesn't seem like it at the moment. It encourages you to look
+     beyond your current circumstances and find creative solutions to your problems.
 
-     [ meaning ]
+     The Eight of Swords can also represent a time of self-imposed limitations. You might have become
+     conditioned and complacent by your situation, whether it's a dead-end job or a toxic relationship.
+     Instead of waiting for something to change or giving up entirely, it's time to scan your surroundings
+     for an exit point and take action. You have the power to free yourself from any situation that is
+     holding you back.
+
      """,
+
+     # Nine of Swords
      58: """
-     How to interpret the Nine of Swords:
+     The Nine of Swords represents anxiety, worry, and fear. It signifies a time of feeling overwhelmed
+     by your emotions and unable to cope with the challenges in your life. You may be experiencing insomnia,
+     guilt, and worries. Instead of letting all of this suck you into depression and despair, remind
+     yourself that it's time to reach out to others for help. Try to find joy in the little things in life,
+     and let those joys bloom into hope.
 
-     [ meaning ]
+     Our darkest fears tend not to be founded in reality; worrying will only make things feel worse for you,
+     and drain your energy. Seek stillness and inner peae through meditation and mindfulness. Take one moment
+     at a time. You will get through this.
+
      """,
-     59: """
-     How to interpret the Ten of Swords:
 
-     [ meaning ]
+     # Ten of Swords
+     59: """
+     The Ten of Swords represents pain, loss, and endings. It signifies a time of feeling defeated and hitting
+     rock bottom. There might be some sort of illness or betrayal that's come to light recently, and you may
+     be feeling like you've been stabbed in the back.
+
+     This card reminds you that you can't always control what happens to you, but you can control how you respond
+     to it. It encourages you to let go of the past and embrace the future with optimism and hope.
+
+     If not for the drama going on, what could you be focusing on instead? The Ten of Swords is telling you to
+     go ahead and move on so that you can find out what brighter times are in store for you.
+
      """,
 
      # Page of Swords
